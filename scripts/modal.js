@@ -11,13 +11,13 @@ $(document).ready(function(){
     walker: {
       title: 'Travel Agency App',
       tag: 'E-COMMERCE MOBILE APP',
-      detail: 'EasyEscape Travel and Tourism is an upcoming Travel and Tourism agency which has been making great strides in their industry. They require a mobile to service customers at any time of day.',
+      detail: 'Travel and Tourism is an industry that adds a great a deal of input to the GDP of any economy. In order to help Travel Agencies to maximize on profit, I have embarked on developing an application that can be customized to fit any Agency.',
     },
     powur: {
-      title: 'Testing',
-      tag: 'ETHEREAL SOLUTIONS',
+      title: 'ConnectUS',
+      tag: 'ICT SERVICES COMPANY',
       detail: '',
-      link: 'popballoons'
+      link: 'https://www.connectus.org.za'
     },
     mystand: {
       title: 'AMANDLA',
