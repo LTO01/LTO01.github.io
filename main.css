@@ -3,6 +3,7 @@ body{
 }
 .gold-text {
     color: #ffb700;
+    font-size: 48px;
 }
 .main { 
   margin-top: 100px !important;
