@@ -1,3 +1,9 @@
+body{
+    background-color: #01002d;
+}
+.gold-text {
+    color: #ffb700;
+}
 .main { 
   margin-top: 100px !important;
     margin-left: 15px !important;
@@ -12,7 +18,7 @@
 .shatter {
   width: 20px;
   height: 20px;
-  background-color: #333;
+  background-color: #01002d;
   position: absolute;
   transition: all 1s ease;
   transform: rotate(45deg);
@@ -20,11 +26,11 @@
   margin-left: 70px;
   box-shadow:
     0 0 0 10px #fff,
-    0 0 0 13px #333,
+    0 0 0 13px #ffb700,
     0 0 0 30px #fff,
-    0 0 0 32px #333,
+    0 0 0 32px #ffb700,
     0 0 0 35px #fff,
-    0 0 0 50px #333;
+    0 0 0 50px #ffb700;
 }
 .shatter:before {
   content:'';
@@ -36,8 +42,8 @@
   height: 26px;
   display: block;
   position: absolute;
-  box-shadow:65px 0px 0 #333, -65px 0px 0 #333,
-    0 65px 0 #333, 0 -65px 0 #333;
+  box-shadow:65px 0px 0 #ffb700, -65px 0px 0 #ffb700,
+    0 65px 0 #ffb700, 0 -65px 0 #ffb700;
   border-radius: 20%;
 }
 .shatter:after {
@@ -50,8 +56,8 @@
   height: 26px;
   display: block;
   position: absolute;
-  box-shadow:65px 0px 0 #333, -65px 0px 0 #333,
-    0 65px 0 #333, 0 -65px 0 #333;
+  box-shadow:65px 0px 0 #ffb700, -65px 0px 0 #ffb700,
+    0 65px 0 #ffb700, 0 -65px 0 #ffb700;
   border-radius: 20%;
   transform: rotate(45deg);
 }
