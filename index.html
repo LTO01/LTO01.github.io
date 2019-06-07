@@ -1,465 +1,84 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>findobonye</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-
-  <!-- HOSTED -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.0.39/css/materialdesignicons.css" media="all" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-  <!-- LOCAL -->
-  <link rel="stylesheet" href="styles/main.css">
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
-
-  <!-- HOSTED -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script><!--contact-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script><!--stylyng and animation effects-->
-
-  <!-- LOCAL -->
-   <script src="scripts/pt.min.js"></script>
-  <script src="scripts/index.js"></script>
-  <script src="scripts/modal.js"></script>
-
-
     
-
-
-</head>
-<body>
-<div class="overflow-wrap">
-
-<!-- HOME -->
-  <div class="modal-wrap flex">
-    <div class="mask"></div>
-    <div class="modal" id="modal">
-      <div class="carousel-wrap">
-        <div class="window">
-          <div id="carousel">
-          <div class="slide"></div>
-          <div class="slide"></div>
-          <div class="slide"></div>
-          </div>
-          <i class="mdi mdi-chevron-left" id="prev"></i>
-          <i class="mdi mdi-chevron-right" id="next"></i>
-        </div>
-
-      </div>
-      <div class="info-box">
-        <div class="title"></div>
-        <div class="tag"></div>
-        <div class="detail"></div>
-        <a href="#" target="_blank"><div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div></a>
-      </div>
-      <i class="close mdi mdi-close"></i>
-    </div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mr Obonye</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                <h1 class="text-info text-center mb-4">Under Construction</h1></div>
+            </div>
+            <div class="row main">
+           
+     <div class="cogwheel col"> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
   </div>
-
-  <section id="home" class="flex height-fix">
-    <div id="pt" class="canvas"></div>
-    <div class="flex">
-
-      <div class="text">
-        Hello, I'm <span class="highlight">Letlhogonolo Theodore Obonye</span>.
-        <br>
-        I'm a Software developer. 
-      </div>
-
-        <div class="button page-link" dest="about">View my work <i class="mdi mdi-arrow-right"></i></div>
-
-      <nav class="flex">
-        <div class="link-wrap">
-          <div class="active page-link" dest="home">home</div>
-          
-          <div class="page-link" dest="about">about</div>
-          <div class="page-link" dest="portfolio">portfolio</div>
-          <div class="page-link" dest="blog">blog</div>
-          <div class="page-link" dest="contact">contact</div>
-        </div>
-        <i class="mdi mdi-menu"></i>
-      </nav>
-    </div>
-      <!--End of Home-->
-
-  </section>
-
-<!-- ABOUT -->
-  <section id="about">
-    <div class="container flex">
-
-      <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
-      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
-
-      <div class="flex row label-wrap">
-        <div class="flex row-gt-sm">
-        <div class="flex bullet-wrap ">
-          <div class="hex-wrap waypoint" data-animation="flip-in-x">
-            <div class="hexagon">
-              <i class="mdi mdi-speedometer"></i>
-            </div>
-          </div>
-          <div class="waypoint" data-animation="fade-in">
-            <div class="label bold">Fast</div>
-            <div>Fast load times and lag free interaction, my highest priority.</div>
-          </div>
-        </div>
-
-        <div class="flex bullet-wrap " >
-          <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
-            <div class="hexagon">
-              <i class="mdi mdi-cellphone-link"></i>
-            </div>
-          </div>
-          <div class="waypoint" data-animation="fade-in" data-delay=".2s">
-            <div class="label bold">Responsive</div>
-            <div>Whether your device is big or small, my layouts will work.</div>
-          </div>
-        </div>
-        </div>
-        <div class="flex row-gt-sm">
-          <div class="flex bullet-wrap " >
-            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
-              <div class="hexagon">
-                <i class="mdi mdi-lightbulb-outline"></i>
-              </div>
-            </div>
-            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
-              <div class="label bold">Intuitive</div>
-              <div>Strong preference for easy to use, intuitive UX/UI.</div>
-            </div>
-          </div>
-
-          <div class="flex bullet-wrap " >
-            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
-              <div class="hexagon">
-                <i class="mdi mdi-rocket"></i>
-              </div>
-            </div>
-            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
-              <div class="label bold">Dynamic</div>
-              <div>I have a magic wand to bring a website to life. </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="skills-wrapper flex row-gt-sm">
-        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
-          <img src="img/Theodore.JPG" class="me">
-          <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-          <div class="label bold">Who am I?</div>
-          <div>
-            I'M BATMAN! LOL! <br>
-              I'm a Freelance Front-End Developer looking for employment in South Africa, Cape Town.
-            <br>
-            I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
-            <br>
-           <a href ="pdf/CV.pdf" download = "pdf/CV.pdf" ><span class="page-link highlight" dest="contact">Download CV here.</span></a>
-          </div>
-        </div>
-
-        <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">CSS</div>
-            </div>
-            <span>65%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:70%">
-              <div class="tag bold flex">HTML</div>
-            </div>
-            <span>70%</span>
-          </div>
-
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:10%">
-              <div class="tag bold flex">React</div>
-            </div>
-            <span>10%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:55%">
-              <div class="tag bold flex">JavaScript</div>
-            </div>
-            <span>55%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:20%">
-              <div class="tag bold flex">Angular</div>
-            </div>
-            <span>20%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:40%">
-              <div class="tag bold flex">Node.js</div>
-            </div>
-            <span>40%</span>
-          </div>
-
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:40%">
-              <div class="tag bold flex">ASP.Net Core</div>
-            </div>
-            <span>40%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:50%">
-              <div class="tag bold flex">UI Design</div>
-            </div>
-            <span>50%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:30%">
-              <div class="tag bold flex">Photoshop</div>
-            </div>
-            <span>30%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:10%">
-              <div class="tag bold flex">Illustrator</div>
-            </div>
-            <span>10%</span>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-    <!--End of About-->
-
-<!-- PORTFOLIO -->
-  <section class="flex" id="portfolio">
-
-    <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
-    <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
-
-    <div class="filter-wrap waypoint" data-animation="fade-in">
-      <div class="flex row">
-        <div class="filter" data-filter="all">ALL</div>
-        <div class="filter" data-filter=".node">NODE.JS</div>
-        <div class="filter" data-filter=".rails">ASP.NET</div>
-        <div class="filter" data-filter=".js">JAVASCRIPT</div>
-      </div>
-      <div class="float-bar">
-        <div class="flex row">
-          <div class="filter" data-filter="all">ALL</div>
-          <div class="filter" data-filter=".node">NODE.JS</div>
-          <div class="filter" data-filter=".rails">ASP.NET</div>
-          <div class="filter" data-filter=".js">JAVASCRIPT</div>
-        </div>
-      </div>
-    </div>
-
-    <div id="gallery" class="container flex row wrap waypoint">
-      <div class="mix js" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">Tetris</div>
-            <span class="highlight">Pure JavaScript</span>
-          </div>
-          <div class="button" id="roambi">LEARN MORE</div>
-        </div>
-      </div>
-
-      <div class="mix rails" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">Travel Agency</div>
-            <span class="highlight">ASP.NET CORE</span>
-          </div>
-          <div class="button" id="walker">LEARN MORE</div>
-        </div>
-      </div>
-
-      <div class="mix node" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">Amandla</div>
-            <span class="highlight">Node.js</span>
-          </div>
-          <div class="button" id="mystand">LEARN MORE</div>
-        </div>
-      </div>
-
-      <div class="mix js" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">POP Balloons</div>
-            <span class="highlight">Pure JavaScript</span>
-          </div>
-          <div class="button" id="never">LEARN MORE</div>
-        </div>
-      </div>
-
-      <div class="mix rails" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">ConnectUS</div>
-            <span class="highlight">Static Website</span>
-          </div>
-          <div class="button" id="powur">LEARN MORE</div>
-        </div>
-      </div>
-
-
-      <div class="mix node" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">The Mall</div>
-            <span class="highlight">Node + React.js</span>
-          </div>
-          <div class="button" id="themall">LEARN MORE</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- BLOG -->
-  <section id="blog">
-    <div class="container flex">
-
-      <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
-      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
-
-      <div class="flex row wrap">
-        <div class="flex row-gt-sm">
-          <a href="#" target="_blank">
-            <div class="blog-wrap waypoint" data-animation="fade-in">
-              <div class="fade-wrap">
-                <div class="thumb" id="thumb-1"></div>
-                <div class="label bold">Web development Tools you need for the year 2019</div>
-                <div class="date">November 05, 2018</div>
-                <div class="bar"></div>
-                <div class="text">
-                 You are approaching graduation as software engineer or you just noticed that your current occupation is not as exciting as web development? Here are tools you will need to learn now to be ready for 2019...
+  <div class="cogwheel col"> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
+  </div>
+  <div class="cogwheel col"> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
+  </div>
+  <div class="cogwheel col"> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
+  </div>
+  <div class="cogwheel col"> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
+  </div>
+  <div class="cogwheel col"> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
+  </div>
+  <div class="cogwheel col "> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
+  </div>
+  <div class="cogwheel col"> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
+  </div>
+  <div class="cogwheel col"> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
+  </div>
+  <div class="cogwheel col"> 
+    <div class="shatter t1 cw"></div>
+    <div class="shatter t2 ccw"></div>
+    <div class="shatter t3 cw"></div>
+    <div class="shatter t4 ccw"></div>
+  </div>
                 </div>
-              </div>
-            </div>
-          </a>
-          <a href="#" target="_blank">
-            <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".2s">
-              <div class="fade-wrap">
-                <div class="thumb" id="thumb-2"></div>
-                <div class="label bold">Leadership 101</div>
-                <div class="date">November 15, 2018</div>
-                <div class="bar"></div>
-                <div class="text">
-                  Are you a boss or leader? What does tht even mean? Which one is preferrable?
-                </div>
-              </div>
-            </div>
-          </a>
         </div>
-        <div class="flex row-gt-sm">
-          <a href="#" target="_blank">
-            <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s">
-              <div class="fade-wrap">
-                <div class="thumb" id="thumb-3"></div>
-                <div class="label bold">A Grip on CSS GRID </div>
-                <div class="date">November 24, 2018</div>
-                <div class="bar"></div>
-                <div class="text">
-                  Let's open the hood on CSS GRID because it is here for the long run.
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="#" target="_blank">
-            <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".6s">
-              <div class="fade-wrap">
-                <div class="thumb" id="thumb-4"></div>
-                <div class="label bold">5 Extensions for Your Chrome Toolbelt</div>
-                <div class="date">December 23, 2018</div>
-                <div class="bar"></div>
-                <div class="text">
-                  If you're not using Google Chrome as a front-end web developer, you're missing out. Not only is Chrome the...
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-    <!--End of Portfolio-->
-
-  <!-- CONTACT -->
-  <section id="contact">
-    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
-      <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-    </svg>
-    <div class="container flex">
-      <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
-      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
-      <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Have a question or want to work together?</div>
-      <!--<form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
-        <input placeholder="Name" type="text" name="name" required>
-        <input placeholder="Enter email" type="email" name="email" required>
-        <textarea placeholder="Your Message" type="text" name="message"></textarea>
-        <div id="success">
-          <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
-        </div>
-        <input class="button" type="submit" id="submit" value=SUBMIT>
-      </form>-->
-    </div>
-  </section>
-<!--End of Contact-->
-  <footer>
-    <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
-
-    <div class="icon-wrap flex row">
-      <a href="https://www.linkedin.com/in/letlhogonolo-t-obonye-23727b171">
-        <div class="flex icon" id="icon-2">
-          <i class="mdi mdi-linkedin"></i>
-        </div>
-      </a>
-      <a href="mailto:ltoboye@yahoo.com">
-        <div class="flex icon" id="icon-3">
-          <i class="mdi mdi-email"></i>
-        </div>
-      </a>
-      <a href="https://twitter.com/Mr_Odore">
-        <div class="flex icon" id="icon-4">
-          <i class="mdi mdi-twitter"></i>
-        </div>
-      </a>
-     <!-- <a href="#">
-        <div class="flex icon" id="icon-5">
-          <i class="mdi mdi-codepen"></i>
-        </div>-->
-      </a>
-    </div>
-    <div class="info-box">
-      <div class="footnote">Letlhogonolo Theodore Obonye <span class="highlight">&copy;2018</span></div>
-    </div>
-  </footer>
-
-</div>
-<!--images to preload-->
-<div id="preload">
- 
-</div>
-
-</body>
+    </body>
 </html>
-
-<script src="scripts/canvas.js"></script>

@@ -1,0 +1,77 @@
+.main { 
+  margin-top: 100px !important;
+    margin-left: 15px !important;
+}
+.cogwheel {
+  width: 290px;
+  height: 290px;
+  position: relative;
+  animation:scope_cw2 20s linear infinite;
+  float: left;
+}
+.shatter {
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  position: absolute;
+  transition: all 1s ease;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  margin-left: 70px;
+  box-shadow:
+    0 0 0 10px #fff,
+    0 0 0 13px #333,
+    0 0 0 30px #fff,
+    0 0 0 32px #333,
+    0 0 0 35px #fff,
+    0 0 0 50px #333;
+}
+.shatter:before {
+  content:'';
+  left:50%;
+  top: 50%;
+  margin-left: -13px;
+  margin-top: -13px;
+  width: 26px;
+  height: 26px;
+  display: block;
+  position: absolute;
+  box-shadow:65px 0px 0 #333, -65px 0px 0 #333,
+    0 65px 0 #333, 0 -65px 0 #333;
+  border-radius: 20%;
+}
+.shatter:after {
+  content:'';
+  left:50%;
+  top: 50%;
+  margin-left: -13px;
+  margin-top: -13px;
+  width: 26px;
+  height: 26px;
+  display: block;
+  position: absolute;
+  box-shadow:65px 0px 0 #333, -65px 0px 0 #333,
+    0 65px 0 #333, 0 -65px 0 #333;
+  border-radius: 20%;
+  transform: rotate(45deg);
+}
+
+.t1 { left: -5px; top:-5px; transform: rotate(0deg);}
+.t2 { left: 140px; top:-5px; transform: rotate(22.5deg);}
+.t3 { left: 140px; top:140px;  transform: rotate(0deg);}
+.t4 { left: -5px; top:140px;  transform: rotate(22.5deg);}
+
+.cw {animation:scope_cw 20s linear infinite;}
+.ccw {animation:scope_ccw 20s linear infinite;}
+
+
+@keyframes scope_cw
+{
+  from {transform: rotate(22.5deg)}
+  to {transform: rotate(382.5deg)}
+}
+@keyframes scope_ccw
+{
+  from {transform: rotate(0deg)}
+  to {transform: rotate(-360deg)}
+}
