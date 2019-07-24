@@ -220,6 +220,9 @@ a:active {
   #about h1 {
     /*font-size: 100%;*/
   }
+.gone {
+    opacity: 0!important;
+}
 
 /*==================================================
                     EXPERIENCE
