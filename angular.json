@@ -141,5 +141,8 @@
       }
     }
   },
-  "defaultProject": "mrobonye"
+  "defaultProject": "mrobonye",
+  "cli": {
+    "analytics": "370c8266-3a87-4de3-b345-88a6f5394cb3"
+  }
 }
