@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import {Component, Renderer2} from '@angular/core';
+import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
+import {RoutePartsService} from './shared/services/route-parts.service';
+import {Title} from '@angular/platform-browser';
+import {filter} from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'mrobonye';
+  appTitle = 'Obonye';
+  pageTitle = '';
+  constructor(
+    public title: Title,
+    private router: Router,
+    private activeRoute: ActivatedRoute,
+    private routePartsService: RoutePartsService
+  ) { }
+  changePageTitle() {
+    this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe((routeChange) => {
+      var routeParts = this.routePartsService.generateRouteParts(this.activeRoute.snapshot);
+      if (!routeParts.length)
+        return this.title.setTitle(this.appTitle);
+      // Extract title from parts;
+      this.pageTitle = routeParts
+        .reverse()
+        .map((part) => part.title )
+        .reduce((partA, partI) => {return `${partA} > ${partI}`});
+      this.pageTitle += ` | ${this.appTitle}`;
+      this.title.setTitle(this.pageTitle);
+    });
+  }
 }
