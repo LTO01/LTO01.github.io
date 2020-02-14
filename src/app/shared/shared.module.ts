@@ -8,6 +8,7 @@ import { HeaderTopComponent } from './header-top/header-top.component';
   declarations: [HeaderTopComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [HeaderTopComponent]
 })
 export class SharedModule { }
