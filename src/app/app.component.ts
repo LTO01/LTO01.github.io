@@ -1,4 +1,4 @@
-import {Component, Renderer2} from '@angular/core';
+import {Component} from '@angular/core';
 import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import {RoutePartsService} from './shared/services/route-parts.service';
 import {Title} from '@angular/platform-browser';
