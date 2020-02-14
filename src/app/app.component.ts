@@ -1,8 +1,8 @@
 import {Component} from '@angular/core';
-import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
+/*import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import {RoutePartsService} from './shared/services/route-parts.service';
 import {Title} from '@angular/platform-browser';
-import {filter} from 'rxjs/operators';
+import {filter} from 'rxjs/operators';*/
 
 @Component({
   selector: 'app-root',
@@ -13,12 +13,12 @@ export class AppComponent {
   appTitle = 'Obonye';
   pageTitle = '';
   constructor(
-    public title: Title,
+ /*   public title: Title,
     private router: Router,
     private activeRoute: ActivatedRoute,
-    private routePartsService: RoutePartsService
+    private routePartsService: RoutePartsService*/
   ) { }
-  changePageTitle() {
+/*  changePageTitle() {
     this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe((routeChange) => {
       var routeParts = this.routePartsService.generateRouteParts(this.activeRoute.snapshot);
       if (!routeParts.length)
@@ -31,5 +31,5 @@ export class AppComponent {
       this.pageTitle += ` | ${this.appTitle}`;
       this.title.setTitle(this.pageTitle);
     });
-  }
+  }*/
 }
