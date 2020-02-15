@@ -8,6 +8,7 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  { path: 'home', loadChildren: () => import('./views/home/home.module').then(m => m.HomeModule) },
   {
     path: '**',
     redirectTo: 'sessions/404'
