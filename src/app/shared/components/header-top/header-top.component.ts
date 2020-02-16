@@ -60,4 +60,5 @@ export class HeaderTopComponent implements OnInit, OnDestroy {
       sidebarStyle: 'closed'
     });
   }
+  toggleNotific() {}
 }

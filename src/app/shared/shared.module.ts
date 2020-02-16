@@ -1,14 +1,21 @@
+import { SharedComponentsModule } from './components/shared-components.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderTopComponent } from './components/header-top/header-top.component';
 
 
 
 @NgModule({
-  declarations: [HeaderTopComponent],
+  declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedComponentsModule
   ],
-  exports: [HeaderTopComponent]
+  exports: [SharedComponentsModule]
 })
-export class SharedModule { }
+export class SharedModule {
+  static forRoot() {
+    return {
+        ngModule: SharedModule
+    };
+}
+}
