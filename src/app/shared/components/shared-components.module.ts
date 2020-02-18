@@ -2,17 +2,17 @@ import { SharedMaterialModule } from './../shared-material.module';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderTopComponent } from './header-top/header-top.component';
+import { SideDrawerComponent } from './side-drawer/side-drawer.component';
 
 
 
 @NgModule({
-  declarations: [HeaderTopComponent],
+  declarations: [SideDrawerComponent],
   imports: [
     CommonModule,
     RouterModule,
     SharedMaterialModule
   ],
-  exports: [HeaderTopComponent]
+  exports: [SideDrawerComponent]
 })
 export class SharedComponentsModule { }
