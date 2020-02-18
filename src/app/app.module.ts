@@ -1,3 +1,5 @@
+import { NavigationService } from './shared/services/navigation.service';
+import { ThemeService } from './shared/services/theme.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
@@ -15,7 +17,7 @@ import { SharedModule } from './shared/shared.module';
     BrowserAnimationsModule,
     SharedModule
   ],
-  providers: [],
+  providers: [ThemeService, NavigationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
