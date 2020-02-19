@@ -2,14 +2,14 @@
 /*GENERAL STYLE*/
 @import "~bootstrap/dist/css/bootstrap.css";
 a {
-  color: #101213;
+  color: #8818e4;
   text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #98b7d1;
+  color: #ad78f3;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #757e86fa;
 }
 
 h1 {
@@ -88,6 +88,9 @@ h2 {
 /*==================================================
                   NAV-BAR
 ====================================================*/
+#sideNav {
+  background-color: white!important;
+}
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
    .img-profile {
   max-width: 3.5rem;
