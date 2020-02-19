@@ -6,10 +6,13 @@
     <mat-toolbar>
       <div class="navbar-brand">
          <mat-icon class="text-danger logo">whatshot</mat-icon>
-       <span>Mr Obonye</span>
+       <span class="shadow-lg">Mr Obonye</span>
       </div>
     </mat-toolbar>
-    <span class="d-none d-lg-block">
+    <span class="d-none d-block" *ngIf="(isHandset$ | async) === true">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-3 mat-elevation-z1" src="../../../assets/img/profile.jpg" alt="">
+    </span>
+    <span class="d-none d-lg-block d-md-block">
       <img class="img-fluid img-profile rounded-circle mx-auto mb-3 mat-elevation-z1" src="../../../assets/img/profile.jpg" alt="">
     </span>
     <p class="font-weight-light">L. Theodore Obonye</p>
