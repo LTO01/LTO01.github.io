@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": [],
@@ -85,6 +86,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": [],
@@ -137,5 +139,8 @@
       }
     }
   },
-  "defaultProject": "portfolio2"
+  "defaultProject": "portfolio2",
+  "cli": {
+    "analytics": "8610292f-92df-41b0-b304-6e0a4f6922c3"
+  }
 }
