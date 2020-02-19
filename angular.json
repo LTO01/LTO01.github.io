@@ -3,22 +3,17 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mrobonye": {
+    "portfolio2": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "sass"
-        }
-      },
+      "schematics": {},
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "aot": true,
-            "outputPath": "dist/mrobonye",
+            "outputPath": "dist/portfolio2",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,8 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
-              "src/styles.sass"
+              "src/styles.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
@@ -56,10 +50,6 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "6kb"
                 }
               ]
             }
@@ -68,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mrobonye:build"
+            "browserTarget": "portfolio2:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mrobonye:build:production"
+              "browserTarget": "portfolio2:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mrobonye:build"
+            "browserTarget": "portfolio2:build"
           }
         },
         "test": {
@@ -90,8 +80,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
-              "src/styles.sass"
+              "src/styles.css"
             ],
             "scripts": [],
             "assets": [
@@ -114,7 +103,7 @@
         }
       }
     },
-    "mrobonye-e2e": {
+    "portfolio2-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -123,11 +112,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "mrobonye:serve"
+            "devServerTarget": "portfolio2:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "mrobonye:serve:production"
+              "devServerTarget": "portfolio2:serve:production"
             }
           }
         },
@@ -143,8 +132,5 @@
       }
     }
   },
-  "defaultProject": "mrobonye",
-  "cli": {
-    "analytics": "370c8266-3a87-4de3-b345-88a6f5394cb3"
-  }
+  "defaultProject": "portfolio2"
 }
