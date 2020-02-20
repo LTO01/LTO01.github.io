@@ -1,14 +1,15 @@
+import { MainNavComponent } from './main-nav/main-nav.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedMaterialModule } from './shared-material.module';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [MainNavComponent],
   imports: [
     CommonModule,
     SharedMaterialModule
   ],
-  exports: []
+  exports: [MainNavComponent]
 })
 export class SharedModule { }
