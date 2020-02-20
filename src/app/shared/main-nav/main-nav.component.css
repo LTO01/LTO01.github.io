@@ -1,9 +1,11 @@
+@import '../../../assets/css/site.css';
+
 .sidenav-container {
   height: 100%;
 }
 
 .sidenav {
-  width: 200px;
+  width: 17rem;
 }
 
 .sidenav .mat-toolbar {
