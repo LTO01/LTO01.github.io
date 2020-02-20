@@ -12,10 +12,22 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { SharedModule } from './shared/shared.module';
+import { AboutComponent } from './views/about/about.component';
+import { GamesComponent } from './views/games/games.component';
+import { ExperienceComponent } from './views/experience/experience.component';
+import { PortfolioComponent } from './views/portfolio/portfolio.component';
+import { SkillsComponent } from './views/skills/skills.component';
+import { ContactsComponent } from './views/contacts/contacts.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    GamesComponent,
+    ExperienceComponent,
+    PortfolioComponent,
+    SkillsComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
