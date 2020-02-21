@@ -19,11 +19,12 @@ body {
   color: #868e96;
 
 }
+.paragraph {
+  font-family: 'Open Sans', serif;
+  color: #737b83;
+}
 .logo {
  font-size: 36px;
-}
-.uk-text-large {
-  font-size: 30px;
 }
 
 
@@ -40,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Saira Extra Condensed', serif!important;
   font-weight: 700;
   text-transform: uppercase;
   color: #757e86fa;
@@ -56,10 +57,10 @@ h2 {
 }
 
 .subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 300;
+  font-family: 'Saira Extra Condensed', serif!important;
   font-size: 1.35rem;
+  color: rgba(95, 95, 95, 0.877)
 }
 
 /*==================================================
@@ -222,22 +223,24 @@ section.resume-section .resume-item .resume-date {
 /*==================================================
                     ABOUT
 ====================================================*/
-#about {
-    /* background-image: url(../img/profile-banner.jpg); */
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
 
 .gone {
   opacity: 0!important;
+}
+
+#about {
+  background-image: url(../img/profile-banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position-y: 0.1rem;
 }
 
 /*==================================================
                   EXPERIENCE
 ====================================================*/
 #experience {
-  background: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 #experience .card h4{
@@ -785,4 +788,15 @@ border-radius: 50%;
   height:100%;
   width:100%;
   position:absolute;
+}
+
+/*====================================================
+                 GAMES
+======================================================*/
+
+#games {
+  background-image: url(../img/profile-banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
