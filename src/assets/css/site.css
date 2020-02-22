@@ -159,26 +159,26 @@ h2 {
 }
 
 .btn-white {
-  border-color: #2196f3;
-  background-color: #2196f3;
+  border-color: #673ab7;
+  background-color: #673ab7;
   color: #fff;
 }
 
 .btn-white:hover,
 .btn-white:focus {
   background-color: transparent;
-  color: #2196f3;
+  color: #673ab7;
   cursor: pointer;
 }
 
 .btn-green {
-  border-color: #2196f3;
-  color: #2196f3;
+  border-color: #673ab7;
+  color: #673ab7;
 }
 
 .btn-green:hover,
 .btn-green:focus {
-  background-color: #2196f3;
+  background-color: #673ab7;
   color: #fff;
   cursor: pointer;
 }
@@ -240,7 +240,12 @@ section.resume-section .resume-item .resume-date {
                   EXPERIENCE
 ====================================================*/
 #experience {
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position-y: 0.1rem;
+
 }
 
 #experience .card h4{
@@ -254,11 +259,14 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #portfolio{
-  padding:100px 0;
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .port-head-cont{
-  margin:20px auto 40px auto;
+  margin: 20px auto 40px auto;
   text-align: center;
 }
 
@@ -287,7 +295,7 @@ section.resume-section .resume-item .resume-date {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(54, 160, 245, 0.73);
+  background:  #683ab77e;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption-port:hover {
@@ -415,7 +423,7 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #skills {
-  /* background-image: url("../img/bg-stats.jpg"); */
+  background-image: url(../img/about.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
