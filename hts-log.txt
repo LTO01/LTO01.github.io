@@ -1,0 +1,569 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 27 Apr 2020 09:28:14 at https://clany.vamtam.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://clany.vamtam.com/ -O1 "C:\My Web Sites\cleaning" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:28:14	Warning: 	Cache: damaged cache, trying to repair
+09:28:14	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+09:28:14	Warning: 	Cache: error trying to open the cache
+09:29:23	Error: 	"Method Not Allowed" (405) at link https://clany.vamtam.com/xmlrpc.php (from https://clany.vamtam.com/)
+09:33:30	Warning: 	Link https://clany.vamtam.com/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+09:33:32	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=11989
+09:33:32	Warning: 	File has moved from https://clany.vamtam.com/?p=11989 to https://clany.vamtam.com/home-modern/
+09:33:38	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=11410
+09:33:38	Warning: 	File has moved from https://clany.vamtam.com/?p=11410 to https://clany.vamtam.com/about/
+09:33:38	Error: 	"Not Found" (404) at link https://clany.vamtam.com/about/https:/clany.vamtam.com/wp-content/uploads/2014/03/photo-13.jpg (from https://clany.vamtam.com/about/)
+09:33:38	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=15827
+09:33:38	Warning: 	File has moved from https://clany.vamtam.com/?p=15827 to https://clany.vamtam.com/about/why-us/
+09:33:38	Error: 	"Not Found" (404) at link https://clany.vamtam.com/about/why-us/https:/clany.vamtam.com/wp-content/uploads/2018/07/photo-24.jpg (from https://clany.vamtam.com/about/why-us/)
+09:34:01	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=15894
+09:34:01	Warning: 	File has moved from https://clany.vamtam.com/?p=15894 to https://clany.vamtam.com/about/faq/
+09:34:01	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=16038
+09:34:01	Warning: 	File has moved from https://clany.vamtam.com/?p=16038 to https://clany.vamtam.com/services/
+09:34:01	Warning: 	Moved Permanently for https://clany.vamtam.com/office-cleaning/
+09:34:01	Warning: 	File has moved from https://clany.vamtam.com/office-cleaning/ to https://clany.vamtam.com/services/office-cleaning/
+09:34:01	Warning: 	Moved Permanently for https://clany.vamtam.com/recurring-cleaning/
+09:34:01	Warning: 	File has moved from https://clany.vamtam.com/recurring-cleaning/ to https://clany.vamtam.com/services/recurring-cleaning/
+09:34:01	Warning: 	Moved Permanently for https://clany.vamtam.com/carpet-cleaning/
+09:34:01	Warning: 	File has moved from https://clany.vamtam.com/carpet-cleaning/ to https://clany.vamtam.com/services/carpet-cleaning/
+09:34:01	Warning: 	Moved Permanently for https://clany.vamtam.com/post-construction-cleaning/
+09:34:01	Warning: 	File has moved from https://clany.vamtam.com/post-construction-cleaning/ to https://clany.vamtam.com/services/post-construction-cleaning/
+09:34:01	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=16048
+09:34:01	Warning: 	File has moved from https://clany.vamtam.com/?p=16048 to https://clany.vamtam.com/services/office-cleaning/
+09:34:01	Error: 	"Not Found" (404) at link https://clany.vamtam.com/services/office-cleaning/https:/clany.vamtam.com/wp-content/uploads/2018/07/Home_Slider_bg_08.jpg (from https://clany.vamtam.com/services/office-cleaning/)
+09:34:06	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=16054
+09:34:06	Warning: 	File has moved from https://clany.vamtam.com/?p=16054 to https://clany.vamtam.com/services/carpet-cleaning/
+09:34:06	Error: 	"Not Found" (404) at link https://clany.vamtam.com/services/carpet-cleaning/https:/clany.vamtam.com/wp-content/uploads/2018/07/Header-1.jpg (from https://clany.vamtam.com/services/carpet-cleaning/)
+09:34:06	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=16058
+09:34:06	Warning: 	File has moved from https://clany.vamtam.com/?p=16058 to https://clany.vamtam.com/services/post-construction-cleaning/
+09:34:06	Error: 	"Not Found" (404) at link https://clany.vamtam.com/services/post-construction-cleaning/https:/clany.vamtam.com/wp-content/uploads/2018/07/Header-2.jpg (from https://clany.vamtam.com/services/post-construction-cleaning/)
+09:34:06	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=16062
+09:34:06	Warning: 	File has moved from https://clany.vamtam.com/?p=16062 to https://clany.vamtam.com/services/move-in-out-cleaning/
+09:34:06	Error: 	"Not Found" (404) at link https://clany.vamtam.com/services/move-in-out-cleaning/https:/clany.vamtam.com/wp-content/uploads/2018/07/Header-3.jpg (from https://clany.vamtam.com/services/move-in-out-cleaning/)
+09:34:06	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=16065
+09:34:06	Warning: 	File has moved from https://clany.vamtam.com/?p=16065 to https://clany.vamtam.com/services/recurring-cleaning/
+09:34:06	Error: 	"Not Found" (404) at link https://clany.vamtam.com/services/recurring-cleaning/https:/clany.vamtam.com/wp-content/uploads/2018/07/Header-4.jpg (from https://clany.vamtam.com/services/recurring-cleaning/)
+09:34:06	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=16097
+09:34:06	Warning: 	File has moved from https://clany.vamtam.com/?p=16097 to https://clany.vamtam.com/offers/
+09:34:06	Error: 	"Not Found" (404) at link https://clany.vamtam.com/offers/https:/clany.vamtam.com/wp-content/uploads/2018/07/Header-4.jpg (from https://clany.vamtam.com/offers/)
+09:34:06	Warning: 	Moved Permanently for https://clany.vamtam.com/cost-calculator/
+09:34:06	Warning: 	File has moved from https://clany.vamtam.com/cost-calculator/ to https://clany.vamtam.com/pricing/cost-calculator/
+09:34:06	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=15841
+09:34:06	Warning: 	File has moved from https://clany.vamtam.com/?p=15841 to https://clany.vamtam.com/pricing/
+09:34:06	Error: 	"Not Found" (404) at link https://clany.vamtam.com/pricing/https:/clany.vamtam.com/wp-content/uploads/2018/07/photo-23.jpg (from https://clany.vamtam.com/pricing/)
+09:34:06	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=15838
+09:34:06	Warning: 	File has moved from https://clany.vamtam.com/?p=15838 to https://clany.vamtam.com/pricing/cost-calculator/
+09:34:06	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=15843
+09:34:06	Warning: 	File has moved from https://clany.vamtam.com/?p=15843 to https://clany.vamtam.com/reviews/
+09:34:07	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=11683
+09:34:07	Warning: 	File has moved from https://clany.vamtam.com/?p=11683 to https://clany.vamtam.com/features/
+09:34:20	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=8022
+09:34:20	Warning: 	File has moved from https://clany.vamtam.com/?p=8022 to https://clany.vamtam.com/features/comingsoon/
+09:34:20	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=1851
+09:34:20	Warning: 	File has moved from https://clany.vamtam.com/?p=1851 to https://clany.vamtam.com/features/case-studies/
+09:34:40	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=703
+09:34:40	Warning: 	File has moved from https://clany.vamtam.com/?p=703 to https://clany.vamtam.com/blog/
+09:34:46	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=14886
+09:34:46	Warning: 	File has moved from https://clany.vamtam.com/?p=14886 to https://clany.vamtam.com/features/appointments/
+09:35:07	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/tribe/tickets/v1/ (from https://clany.vamtam.com/events/)
+09:36:03	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=14779
+09:36:03	Warning: 	File has moved from https://clany.vamtam.com/?p=14779 to https://clany.vamtam.com/features/shop-1/
+09:37:17	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=12879
+09:37:17	Warning: 	File has moved from https://clany.vamtam.com/?p=12879 to https://clany.vamtam.com/features/animation-builder/
+09:37:23	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=13252
+09:37:23	Warning: 	File has moved from https://clany.vamtam.com/?p=13252 to https://clany.vamtam.com/cart/
+09:37:46	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=11947
+09:37:46	Warning: 	File has moved from https://clany.vamtam.com/?p=11947 to https://clany.vamtam.com/get-cleanenergy-for-your-clean-home/
+09:37:46	Warning: 	Found for https://clany.vamtam.com/get-cleanenergy-for-your-clean-home/?share=facebook
+09:37:46	Warning: 	File has moved from https://clany.vamtam.com/get-cleanenergy-for-your-clean-home/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fget-cleanenergy-for-your-clean-home%2F&t=Get%20CleanEnergy%20for%20your%20%28clean%29%20home%21
+09:37:46	Warning: 	Found for https://clany.vamtam.com/get-cleanenergy-for-your-clean-home/?share=twitter
+09:37:46	Warning: 	File has moved from https://clany.vamtam.com/get-cleanenergy-for-your-clean-home/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Get%20CleanEnergy%20for%20your%20%28clean%29%20home%21&url=https%3A%2F%2Fclany.vamtam.com%2Fget-cleanenergy-for-your-clean-home%2F
+09:37:46	Warning: 	Found for https://clany.vamtam.com/get-cleanenergy-for-your-clean-home/?share=pinterest
+09:37:46	Warning: 	File has moved from https://clany.vamtam.com/get-cleanenergy-for-your-clean-home/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fget-cleanenergy-for-your-clean-home%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fphoto-29.jpg&description=Get%20CleanEnergy%20for%20your%20%28clean%29%20home%21
+09:37:46	Warning: 	Found for https://clany.vamtam.com/get-cleanenergy-for-your-clean-home/?share=tumblr
+09:37:46	Warning: 	File has moved from https://clany.vamtam.com/get-cleanenergy-for-your-clean-home/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fget-cleanenergy-for-your-clean-home%2F&t=Get%20CleanEnergy%20for%20your%20%28clean%29%20home%21&s=
+09:38:01	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=6748
+09:38:01	Warning: 	File has moved from https://clany.vamtam.com/?p=6748 to https://clany.vamtam.com/why-clanys-a-life-saver-for-my-flatshare/
+09:38:01	Warning: 	Found for https://clany.vamtam.com/why-clanys-a-life-saver-for-my-flatshare/?share=facebook
+09:38:01	Warning: 	File has moved from https://clany.vamtam.com/why-clanys-a-life-saver-for-my-flatshare/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fwhy-clanys-a-life-saver-for-my-flatshare%2F&t=Why%20Clany%27s%20a%20life-saver%20for%20my%20flatshare%21
+09:38:01	Warning: 	Found for https://clany.vamtam.com/why-clanys-a-life-saver-for-my-flatshare/?share=twitter
+09:38:01	Warning: 	File has moved from https://clany.vamtam.com/why-clanys-a-life-saver-for-my-flatshare/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Why%20Clany%27s%20a%20life-saver%20for%20my%20flatshare%21&url=https%3A%2F%2Fclany.vamtam.com%2Fwhy-clanys-a-life-saver-for-my-flatshare%2F
+09:38:01	Warning: 	Found for https://clany.vamtam.com/why-clanys-a-life-saver-for-my-flatshare/?share=pinterest
+09:38:01	Warning: 	File has moved from https://clany.vamtam.com/why-clanys-a-life-saver-for-my-flatshare/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fwhy-clanys-a-life-saver-for-my-flatshare%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2013%2F09%2Fphoto-15.jpg&description=Why%20Clany%27s%20a%20life-saver%20for%20my%20flatshare%21
+09:38:01	Warning: 	Found for https://clany.vamtam.com/why-clanys-a-life-saver-for-my-flatshare/?share=tumblr
+09:38:01	Warning: 	File has moved from https://clany.vamtam.com/why-clanys-a-life-saver-for-my-flatshare/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fwhy-clanys-a-life-saver-for-my-flatshare%2F&t=Why%20Clany%27s%20a%20life-saver%20for%20my%20flatshare%21&s=
+09:38:07	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=300
+09:38:07	Warning: 	File has moved from https://clany.vamtam.com/?p=300 to https://clany.vamtam.com/plants-that-keep-the-air-clean/
+09:38:07	Warning: 	Found for https://clany.vamtam.com/plants-that-keep-the-air-clean/?share=facebook
+09:38:07	Warning: 	File has moved from https://clany.vamtam.com/plants-that-keep-the-air-clean/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fplants-that-keep-the-air-clean%2F&t=Plants%20that%20keep%20the%20air%20clean
+09:38:07	Warning: 	Found for https://clany.vamtam.com/plants-that-keep-the-air-clean/?share=twitter
+09:38:07	Warning: 	File has moved from https://clany.vamtam.com/plants-that-keep-the-air-clean/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Plants%20that%20keep%20the%20air%20clean&url=https%3A%2F%2Fclany.vamtam.com%2Fplants-that-keep-the-air-clean%2F
+09:38:07	Warning: 	Found for https://clany.vamtam.com/plants-that-keep-the-air-clean/?share=pinterest
+09:38:07	Warning: 	File has moved from https://clany.vamtam.com/plants-that-keep-the-air-clean/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fplants-that-keep-the-air-clean%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2013%2F09%2Fphoto-17.jpg&description=Plants%20that%20keep%20the%20air%20clean
+09:38:07	Warning: 	Found for https://clany.vamtam.com/plants-that-keep-the-air-clean/?share=tumblr
+09:38:07	Warning: 	File has moved from https://clany.vamtam.com/plants-that-keep-the-air-clean/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fplants-that-keep-the-air-clean%2F&t=Plants%20that%20keep%20the%20air%20clean&s=
+09:38:11	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=308
+09:38:11	Warning: 	File has moved from https://clany.vamtam.com/?p=308 to https://clany.vamtam.com/clany-super-bowl-party-prep-guide/
+09:38:11	Warning: 	Found for https://clany.vamtam.com/clany-super-bowl-party-prep-guide/?share=facebook
+09:38:11	Warning: 	File has moved from https://clany.vamtam.com/clany-super-bowl-party-prep-guide/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fclany-super-bowl-party-prep-guide%2F&t=Clany%20Super%20Bowl%20Party%20Prep%20Guide
+09:38:11	Warning: 	Found for https://clany.vamtam.com/clany-super-bowl-party-prep-guide/?share=twitter
+09:38:11	Warning: 	File has moved from https://clany.vamtam.com/clany-super-bowl-party-prep-guide/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Clany%20Super%20Bowl%20Party%20Prep%20Guide&url=https%3A%2F%2Fclany.vamtam.com%2Fclany-super-bowl-party-prep-guide%2F
+09:38:11	Warning: 	Found for https://clany.vamtam.com/clany-super-bowl-party-prep-guide/?share=pinterest
+09:38:11	Warning: 	File has moved from https://clany.vamtam.com/clany-super-bowl-party-prep-guide/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fclany-super-bowl-party-prep-guide%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fphoto-31.jpg&description=Clany%20Super%20Bowl%20Party%20Prep%20Guide
+09:38:11	Warning: 	Found for https://clany.vamtam.com/clany-super-bowl-party-prep-guide/?share=tumblr
+09:38:11	Warning: 	File has moved from https://clany.vamtam.com/clany-super-bowl-party-prep-guide/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fclany-super-bowl-party-prep-guide%2F&t=Clany%20Super%20Bowl%20Party%20Prep%20Guide&s=
+09:38:15	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=303
+09:38:15	Warning: 	File has moved from https://clany.vamtam.com/?p=303 to https://clany.vamtam.com/the-science-of-spring-cleaning/
+09:38:16	Warning: 	Found for https://clany.vamtam.com/the-science-of-spring-cleaning/?share=facebook
+09:38:16	Warning: 	File has moved from https://clany.vamtam.com/the-science-of-spring-cleaning/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fthe-science-of-spring-cleaning%2F&t=The%20Science%20of%20Spring%20Cleaning%21
+09:38:16	Warning: 	Found for https://clany.vamtam.com/the-science-of-spring-cleaning/?share=twitter
+09:38:16	Warning: 	File has moved from https://clany.vamtam.com/the-science-of-spring-cleaning/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=The%20Science%20of%20Spring%20Cleaning%21&url=https%3A%2F%2Fclany.vamtam.com%2Fthe-science-of-spring-cleaning%2F
+09:38:16	Warning: 	Found for https://clany.vamtam.com/the-science-of-spring-cleaning/?share=pinterest
+09:38:16	Warning: 	File has moved from https://clany.vamtam.com/the-science-of-spring-cleaning/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fthe-science-of-spring-cleaning%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fphoto-32.jpg&description=The%20Science%20of%20Spring%20Cleaning%21
+09:38:16	Warning: 	Found for https://clany.vamtam.com/the-science-of-spring-cleaning/?share=tumblr
+09:38:16	Warning: 	File has moved from https://clany.vamtam.com/the-science-of-spring-cleaning/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fthe-science-of-spring-cleaning%2F&t=The%20Science%20of%20Spring%20Cleaning%21&s=
+09:38:20	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=294
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/?p=294 to https://clany.vamtam.com/meet-the-professionals-alex/
+09:38:20	Warning: 	Found for https://clany.vamtam.com/meet-the-professionals-alex/?share=facebook
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/meet-the-professionals-alex/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fmeet-the-professionals-alex%2F&t=Meet%20the%20Professionals%3A%20Alex
+09:38:20	Warning: 	Found for https://clany.vamtam.com/meet-the-professionals-alex/?share=twitter
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/meet-the-professionals-alex/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Meet%20the%20Professionals%3A%20Alex&url=https%3A%2F%2Fclany.vamtam.com%2Fmeet-the-professionals-alex%2F
+09:38:20	Warning: 	Found for https://clany.vamtam.com/meet-the-professionals-alex/?share=pinterest
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/meet-the-professionals-alex/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fmeet-the-professionals-alex%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2014%2F03%2Fphoto-12.jpg&description=Meet%20the%20Professionals%3A%20Alex
+09:38:20	Warning: 	Found for https://clany.vamtam.com/meet-the-professionals-alex/?share=tumblr
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/meet-the-professionals-alex/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fmeet-the-professionals-alex%2F&t=Meet%20the%20Professionals%3A%20Alex&s=
+09:38:20	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=306
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/?p=306 to https://clany.vamtam.com/carpet-cleaning-to-remove-flea-infestation/
+09:38:20	Warning: 	Found for https://clany.vamtam.com/carpet-cleaning-to-remove-flea-infestation/?share=facebook
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/carpet-cleaning-to-remove-flea-infestation/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fcarpet-cleaning-to-remove-flea-infestation%2F&t=Carpet%20cleaning%20to%20remove%20flea%20infestation
+09:38:20	Warning: 	Found for https://clany.vamtam.com/carpet-cleaning-to-remove-flea-infestation/?share=twitter
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/carpet-cleaning-to-remove-flea-infestation/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Carpet%20cleaning%20to%20remove%20flea%20infestation&url=https%3A%2F%2Fclany.vamtam.com%2Fcarpet-cleaning-to-remove-flea-infestation%2F
+09:38:20	Warning: 	Found for https://clany.vamtam.com/carpet-cleaning-to-remove-flea-infestation/?share=pinterest
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/carpet-cleaning-to-remove-flea-infestation/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fcarpet-cleaning-to-remove-flea-infestation%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fphoto-33.jpg&description=Carpet%20cleaning%20to%20remove%20flea%20infestation
+09:38:20	Warning: 	Found for https://clany.vamtam.com/carpet-cleaning-to-remove-flea-infestation/?share=tumblr
+09:38:20	Warning: 	File has moved from https://clany.vamtam.com/carpet-cleaning-to-remove-flea-infestation/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fcarpet-cleaning-to-remove-flea-infestation%2F&t=Carpet%20cleaning%20to%20remove%20flea%20infestation&s=
+09:38:21	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=319
+09:38:21	Warning: 	File has moved from https://clany.vamtam.com/?p=319 to https://clany.vamtam.com/portfolio/studio-one/
+09:38:22	Warning: 	Found for https://clany.vamtam.com/portfolio/studio-one/?share=facebook
+09:38:22	Warning: 	File has moved from https://clany.vamtam.com/portfolio/studio-one/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fstudio-one%2F&t=Studio%20One
+09:38:22	Warning: 	Found for https://clany.vamtam.com/portfolio/studio-one/?share=twitter
+09:38:22	Warning: 	File has moved from https://clany.vamtam.com/portfolio/studio-one/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Studio%20One&url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fstudio-one%2F
+09:38:22	Warning: 	Found for https://clany.vamtam.com/portfolio/studio-one/?share=pinterest
+09:38:22	Warning: 	File has moved from https://clany.vamtam.com/portfolio/studio-one/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fstudio-one%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2014%2F03%2Fphoto-13.jpg&description=Studio%20One
+09:38:22	Warning: 	Found for https://clany.vamtam.com/portfolio/studio-one/?share=tumblr
+09:38:22	Warning: 	File has moved from https://clany.vamtam.com/portfolio/studio-one/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fstudio-one%2F&t=Studio%20One&s=
+09:38:22	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=10027
+09:38:22	Warning: 	File has moved from https://clany.vamtam.com/?p=10027 to https://clany.vamtam.com/portfolio/drake-house/
+09:38:24	Warning: 	Found for https://clany.vamtam.com/portfolio/drake-house/?share=facebook
+09:38:24	Warning: 	File has moved from https://clany.vamtam.com/portfolio/drake-house/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fdrake-house%2F&t=Drake%20House
+09:38:24	Warning: 	Found for https://clany.vamtam.com/portfolio/drake-house/?share=twitter
+09:38:24	Warning: 	File has moved from https://clany.vamtam.com/portfolio/drake-house/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Drake%20House&url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fdrake-house%2F
+09:38:24	Warning: 	Found for https://clany.vamtam.com/portfolio/drake-house/?share=pinterest
+09:38:24	Warning: 	File has moved from https://clany.vamtam.com/portfolio/drake-house/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fdrake-house%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2010%2F04%2Fphoto-16.jpg&description=Drake%20House
+09:38:24	Warning: 	Found for https://clany.vamtam.com/portfolio/drake-house/?share=tumblr
+09:38:24	Warning: 	File has moved from https://clany.vamtam.com/portfolio/drake-house/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fdrake-house%2F&t=Drake%20House&s=
+09:38:31	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=9898
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/?p=9898 to https://clany.vamtam.com/portfolio/clany-kitchen/
+09:38:31	Warning: 	Found for https://clany.vamtam.com/portfolio/clany-kitchen/?share=facebook
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/portfolio/clany-kitchen/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fclany-kitchen%2F&t=Clany%20Kitchen
+09:38:31	Warning: 	Found for https://clany.vamtam.com/portfolio/clany-kitchen/?share=twitter
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/portfolio/clany-kitchen/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Clany%20Kitchen&url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fclany-kitchen%2F
+09:38:31	Warning: 	Found for https://clany.vamtam.com/portfolio/clany-kitchen/?share=pinterest
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/portfolio/clany-kitchen/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fclany-kitchen%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2013%2F09%2Fphoto-15.jpg&description=Clany%20Kitchen
+09:38:31	Warning: 	Found for https://clany.vamtam.com/portfolio/clany-kitchen/?share=tumblr
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/portfolio/clany-kitchen/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fclany-kitchen%2F&t=Clany%20Kitchen&s=
+09:38:31	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=322
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/?p=322 to https://clany.vamtam.com/portfolio/kitchen-story/
+09:38:31	Warning: 	Found for https://clany.vamtam.com/portfolio/kitchen-story/?share=facebook
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/portfolio/kitchen-story/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fkitchen-story%2F&t=Kitchen%20story
+09:38:31	Warning: 	Found for https://clany.vamtam.com/portfolio/kitchen-story/?share=twitter
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/portfolio/kitchen-story/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Kitchen%20story&url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fkitchen-story%2F
+09:38:31	Warning: 	Found for https://clany.vamtam.com/portfolio/kitchen-story/?share=pinterest
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/portfolio/kitchen-story/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fkitchen-story%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2014%2F03%2Fphoto-12.jpg&description=Kitchen%20story
+09:38:31	Warning: 	Found for https://clany.vamtam.com/portfolio/kitchen-story/?share=tumblr
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/portfolio/kitchen-story/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fkitchen-story%2F&t=Kitchen%20story&s=
+09:38:31	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=5357
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/?p=5357 to https://clany.vamtam.com/fresh-new-idea-host-a-spring-cleaning-party/
+09:38:31	Warning: 	Found for https://clany.vamtam.com/fresh-new-idea-host-a-spring-cleaning-party/?share=facebook
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/fresh-new-idea-host-a-spring-cleaning-party/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Ffresh-new-idea-host-a-spring-cleaning-party%2F&t=Fresh%20New%20Idea%3A%20Host%20a%20Spring%20Cleaning%20Party%21
+09:38:31	Warning: 	Found for https://clany.vamtam.com/fresh-new-idea-host-a-spring-cleaning-party/?share=twitter
+09:38:31	Warning: 	File has moved from https://clany.vamtam.com/fresh-new-idea-host-a-spring-cleaning-party/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Fresh%20New%20Idea%3A%20Host%20a%20Spring%20Cleaning%20Party%21&url=https%3A%2F%2Fclany.vamtam.com%2Ffresh-new-idea-host-a-spring-cleaning-party%2F
+09:38:32	Warning: 	Found for https://clany.vamtam.com/fresh-new-idea-host-a-spring-cleaning-party/?share=pinterest
+09:38:32	Warning: 	File has moved from https://clany.vamtam.com/fresh-new-idea-host-a-spring-cleaning-party/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Ffresh-new-idea-host-a-spring-cleaning-party%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2013%2F09%2Fphoto-16.jpg&description=Fresh%20New%20Idea%3A%20Host%20a%20Spring%20Cleaning%20Party%21
+09:38:32	Warning: 	Found for https://clany.vamtam.com/fresh-new-idea-host-a-spring-cleaning-party/?share=tumblr
+09:38:32	Warning: 	File has moved from https://clany.vamtam.com/fresh-new-idea-host-a-spring-cleaning-party/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Ffresh-new-idea-host-a-spring-cleaning-party%2F&t=Fresh%20New%20Idea%3A%20Host%20a%20Spring%20Cleaning%20Party%21&s=
+09:38:33	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=320
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/?p=320 to https://clany.vamtam.com/portfolio/clarity/
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/clarity/?share=facebook
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/clarity/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fclarity%2F&t=Clarity
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/clarity/?share=twitter
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/clarity/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Clarity&url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fclarity%2F
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/clarity/?share=pinterest
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/clarity/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fclarity%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2014%2F01%2Fphoto-25.jpg&description=Clarity
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/clarity/?share=tumblr
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/clarity/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fclarity%2F&t=Clarity&s=
+09:38:33	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=325
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/?p=325 to https://clany.vamtam.com/portfolio/holy/
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/holy/?share=facebook
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/holy/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fholy%2F&t=Holy
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/holy/?share=twitter
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/holy/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Holy&url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fholy%2F
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/holy/?share=pinterest
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/holy/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fholy%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2014%2F01%2Fphoto-26.jpg&description=Holy
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/holy/?share=tumblr
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/holy/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fholy%2F&t=Holy&s=
+09:38:33	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=6215
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/?p=6215 to https://clany.vamtam.com/portfolio/offancy/
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/offancy/?share=facebook
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/offancy/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Foffancy%2F&t=Offancy
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/offancy/?share=twitter
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/offancy/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Offancy&url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Foffancy%2F
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/offancy/?share=pinterest
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/offancy/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Foffancy%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2013%2F08%2Fphoto-27.jpg&description=Offancy
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/offancy/?share=tumblr
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/offancy/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Foffancy%2F&t=Offancy&s=
+09:38:33	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=5327
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/?p=5327 to https://clany.vamtam.com/portfolio/stephen-house/
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/stephen-house/?share=facebook
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/stephen-house/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fstephen-house%2F&t=St%C4%93phen%20House
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/stephen-house/?share=twitter
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/stephen-house/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=St%C4%93phen%20House&url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fstephen-house%2F
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/stephen-house/?share=pinterest
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/stephen-house/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fstephen-house%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2013%2F07%2Fphoto-28.jpg&description=St%C4%93phen%20House
+09:38:33	Warning: 	Found for https://clany.vamtam.com/portfolio/stephen-house/?share=tumblr
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/portfolio/stephen-house/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fstephen-house%2F&t=St%C4%93phen%20House&s=
+09:38:33	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=301
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/?p=301 to https://clany.vamtam.com/outdoor-grill-cleaning-tips/
+09:38:33	Warning: 	Found for https://clany.vamtam.com/outdoor-grill-cleaning-tips/?share=facebook
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/outdoor-grill-cleaning-tips/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Foutdoor-grill-cleaning-tips%2F&t=Outdoor%20grill%20cleaning%20tips
+09:38:33	Warning: 	Found for https://clany.vamtam.com/outdoor-grill-cleaning-tips/?share=twitter
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/outdoor-grill-cleaning-tips/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Outdoor%20grill%20cleaning%20tips&url=https%3A%2F%2Fclany.vamtam.com%2Foutdoor-grill-cleaning-tips%2F
+09:38:33	Warning: 	Found for https://clany.vamtam.com/outdoor-grill-cleaning-tips/?share=pinterest
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/outdoor-grill-cleaning-tips/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Foutdoor-grill-cleaning-tips%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2013%2F07%2Fphoto-28.jpg&description=Outdoor%20grill%20cleaning%20tips
+09:38:33	Warning: 	Found for https://clany.vamtam.com/outdoor-grill-cleaning-tips/?share=tumblr
+09:38:33	Warning: 	File has moved from https://clany.vamtam.com/outdoor-grill-cleaning-tips/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Foutdoor-grill-cleaning-tips%2F&t=Outdoor%20grill%20cleaning%20tips&s=
+09:38:41	Warning: 	Moved Permanently for https://clany.vamtam.com/blog/page/1/
+09:38:41	Warning: 	File has moved from https://clany.vamtam.com/blog/page/1/ to https://clany.vamtam.com/blog/
+09:38:52	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=9273 (from https://clany.vamtam.com/classes/f-ounders-start-ny/)
+09:38:52	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Ff-ounders-start-ny%2F (from https://clany.vamtam.com/classes/f-ounders-start-ny/)
+09:38:52	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Ff-ounders-start-ny%2F&format=xml (from https://clany.vamtam.com/classes/f-ounders-start-ny/)
+09:39:01	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=9292 (from https://clany.vamtam.com/classes/clean-stylish-holiday-decoration/)
+09:39:01	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fclean-stylish-holiday-decoration%2F (from https://clany.vamtam.com/classes/clean-stylish-holiday-decoration/)
+09:39:01	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fclean-stylish-holiday-decoration%2F&format=xml (from https://clany.vamtam.com/classes/clean-stylish-holiday-decoration/)
+09:39:08	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=9293 (from https://clany.vamtam.com/classes/clany-at-techcrunch-disrupt-ny/)
+09:39:08	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fclany-at-techcrunch-disrupt-ny%2F (from https://clany.vamtam.com/classes/clany-at-techcrunch-disrupt-ny/)
+09:39:08	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fclany-at-techcrunch-disrupt-ny%2F&format=xml (from https://clany.vamtam.com/classes/clany-at-techcrunch-disrupt-ny/)
+09:39:08	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=9272 (from https://clany.vamtam.com/classes/tiling-workshop/)
+09:39:08	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Ftiling-workshop%2F (from https://clany.vamtam.com/classes/tiling-workshop/)
+09:39:08	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Ftiling-workshop%2F&format=xml (from https://clany.vamtam.com/classes/tiling-workshop/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=8180 (from https://clany.vamtam.com/classes/picture-hanging-workshop/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fpicture-hanging-workshop%2F (from https://clany.vamtam.com/classes/picture-hanging-workshop/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fpicture-hanging-workshop%2F&format=xml (from https://clany.vamtam.com/classes/picture-hanging-workshop/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=9209 (from https://clany.vamtam.com/classes/clany-at-web-summit/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fclany-at-web-summit%2F (from https://clany.vamtam.com/classes/clany-at-web-summit/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fclany-at-web-summit%2F&format=xml (from https://clany.vamtam.com/classes/clany-at-web-summit/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=8179 (from https://clany.vamtam.com/classes/creating-studio-space-and-style/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fcreating-studio-space-and-style%2F (from https://clany.vamtam.com/classes/creating-studio-space-and-style/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fcreating-studio-space-and-style%2F&format=xml (from https://clany.vamtam.com/classes/creating-studio-space-and-style/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14801 (from https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fsweeper-pet-dry-sweeping-cloths%2F (from https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/)
+09:39:11	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fsweeper-pet-dry-sweeping-cloths%2F&format=xml (from https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/)
+09:39:12	Warning: 	Found for https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/?share=facebook
+09:39:12	Warning: 	File has moved from https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fsweeper-pet-dry-sweeping-cloths%2F&t=Sweeper%20Pet%20Dry%20Sweeping%20Cloths
+09:39:15	Warning: 	Found for https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/?share=twitter
+09:39:15	Warning: 	File has moved from https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Sweeper%20Pet%20Dry%20Sweeping%20Cloths&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fsweeper-pet-dry-sweeping-cloths%2F
+09:39:17	Warning: 	Found for https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/?share=pinterest
+09:39:17	Warning: 	File has moved from https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fsweeper-pet-dry-sweeping-cloths%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-2.jpg&description=Sweeper%20Pet%20Dry%20Sweeping%20Cloths
+09:39:18	Warning: 	Found for https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/?share=tumblr
+09:39:18	Warning: 	File has moved from https://clany.vamtam.com/product/sweeper-pet-dry-sweeping-cloths/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fsweeper-pet-dry-sweeping-cloths%2F&t=Sweeper%20Pet%20Dry%20Sweeping%20Cloths&s=
+09:39:21	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14802 (from https://clany.vamtam.com/product/hardwood-floor-cleaner/)
+09:39:23	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fhardwood-floor-cleaner%2F (from https://clany.vamtam.com/product/hardwood-floor-cleaner/)
+09:39:24	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fhardwood-floor-cleaner%2F&format=xml (from https://clany.vamtam.com/product/hardwood-floor-cleaner/)
+09:39:26	Warning: 	Found for https://clany.vamtam.com/product/hardwood-floor-cleaner/?share=facebook
+09:39:26	Warning: 	File has moved from https://clany.vamtam.com/product/hardwood-floor-cleaner/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fhardwood-floor-cleaner%2F&t=Hardwood%20Floor%20Cleaner
+09:39:27	Warning: 	Found for https://clany.vamtam.com/product/hardwood-floor-cleaner/?share=twitter
+09:39:27	Warning: 	File has moved from https://clany.vamtam.com/product/hardwood-floor-cleaner/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Hardwood%20Floor%20Cleaner&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fhardwood-floor-cleaner%2F
+09:39:33	Warning: 	Found for https://clany.vamtam.com/product/hardwood-floor-cleaner/?share=pinterest
+09:39:33	Warning: 	File has moved from https://clany.vamtam.com/product/hardwood-floor-cleaner/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fhardwood-floor-cleaner%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-3.jpg&description=Hardwood%20Floor%20Cleaner
+09:39:33	Warning: 	Found for https://clany.vamtam.com/product/hardwood-floor-cleaner/?share=tumblr
+09:39:33	Warning: 	File has moved from https://clany.vamtam.com/product/hardwood-floor-cleaner/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fhardwood-floor-cleaner%2F&t=Hardwood%20Floor%20Cleaner&s=
+09:39:34	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14803 (from https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/)
+09:39:34	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-dishwasher-detergent-packsy%2F (from https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/)
+09:39:34	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-dishwasher-detergent-packsy%2F&format=xml (from https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/)
+09:39:34	Warning: 	Found for https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/?share=facebook
+09:39:34	Warning: 	File has moved from https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-dishwasher-detergent-packsy%2F&t=Premium%20Dishwasher%20Detergent%20Packs
+09:39:34	Warning: 	Found for https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/?share=twitter
+09:39:34	Warning: 	File has moved from https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Premium%20Dishwasher%20Detergent%20Packs&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-dishwasher-detergent-packsy%2F
+09:39:34	Warning: 	Found for https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/?share=pinterest
+09:39:34	Warning: 	File has moved from https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-dishwasher-detergent-packsy%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-4.jpg&description=Premium%20Dishwasher%20Detergent%20Packs
+09:39:34	Warning: 	Found for https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/?share=tumblr
+09:39:34	Warning: 	File has moved from https://clany.vamtam.com/product/premium-dishwasher-detergent-packsy/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-dishwasher-detergent-packsy%2F&t=Premium%20Dishwasher%20Detergent%20Packs&s=
+09:39:34	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14804 (from https://clany.vamtam.com/product/liquid-detergent/)
+09:39:34	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fliquid-detergent%2F (from https://clany.vamtam.com/product/liquid-detergent/)
+09:39:34	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fliquid-detergent%2F&format=xml (from https://clany.vamtam.com/product/liquid-detergent/)
+09:39:34	Warning: 	Found for https://clany.vamtam.com/product/liquid-detergent/?share=facebook
+09:39:34	Warning: 	File has moved from https://clany.vamtam.com/product/liquid-detergent/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fliquid-detergent%2F&t=Liquid%20Detergent
+09:39:34	Warning: 	Found for https://clany.vamtam.com/product/liquid-detergent/?share=twitter
+09:39:34	Warning: 	File has moved from https://clany.vamtam.com/product/liquid-detergent/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Liquid%20Detergent&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fliquid-detergent%2F
+09:39:34	Warning: 	Found for https://clany.vamtam.com/product/liquid-detergent/?share=pinterest
+09:39:34	Warning: 	File has moved from https://clany.vamtam.com/product/liquid-detergent/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fliquid-detergent%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-5.jpg&description=Liquid%20Detergent
+09:39:34	Warning: 	Found for https://clany.vamtam.com/product/liquid-detergent/?share=tumblr
+09:39:34	Warning: 	File has moved from https://clany.vamtam.com/product/liquid-detergent/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fliquid-detergent%2F&t=Liquid%20Detergent&s=
+09:39:40	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14784 (from https://clany.vamtam.com/product/disinfecting-wipes/)
+09:39:40	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdisinfecting-wipes%2F (from https://clany.vamtam.com/product/disinfecting-wipes/)
+09:39:44	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdisinfecting-wipes%2F&format=xml (from https://clany.vamtam.com/product/disinfecting-wipes/)
+09:39:46	Warning: 	Found for https://clany.vamtam.com/product/disinfecting-wipes/?share=facebook
+09:39:46	Warning: 	File has moved from https://clany.vamtam.com/product/disinfecting-wipes/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdisinfecting-wipes%2F&t=Disinfecting%20Wipes
+09:39:49	Warning: 	Found for https://clany.vamtam.com/product/disinfecting-wipes/?share=twitter
+09:39:49	Warning: 	File has moved from https://clany.vamtam.com/product/disinfecting-wipes/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Disinfecting%20Wipes&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdisinfecting-wipes%2F
+09:39:51	Warning: 	Found for https://clany.vamtam.com/product/disinfecting-wipes/?share=pinterest
+09:39:51	Warning: 	File has moved from https://clany.vamtam.com/product/disinfecting-wipes/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdisinfecting-wipes%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-7.jpg&description=Disinfecting%20Wipes
+09:39:51	Warning: 	Found for https://clany.vamtam.com/product/disinfecting-wipes/?share=tumblr
+09:39:51	Warning: 	File has moved from https://clany.vamtam.com/product/disinfecting-wipes/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdisinfecting-wipes%2F&t=Disinfecting%20Wipes&s=
+09:39:58	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14785 (from https://clany.vamtam.com/product/fabric-softener/)
+09:40:00	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Ffabric-softener%2F (from https://clany.vamtam.com/product/fabric-softener/)
+09:40:00	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Ffabric-softener%2F&format=xml (from https://clany.vamtam.com/product/fabric-softener/)
+09:40:00	Warning: 	Found for https://clany.vamtam.com/product/fabric-softener/?share=facebook
+09:40:00	Warning: 	File has moved from https://clany.vamtam.com/product/fabric-softener/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Ffabric-softener%2F&t=Fabric%20Softener
+09:40:02	Warning: 	Found for https://clany.vamtam.com/product/fabric-softener/?share=twitter
+09:40:02	Warning: 	File has moved from https://clany.vamtam.com/product/fabric-softener/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Fabric%20Softener&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Ffabric-softener%2F
+09:40:06	Warning: 	Found for https://clany.vamtam.com/product/fabric-softener/?share=pinterest
+09:40:06	Warning: 	File has moved from https://clany.vamtam.com/product/fabric-softener/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Ffabric-softener%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-8.jpg&description=Fabric%20Softener
+09:40:08	Warning: 	Found for https://clany.vamtam.com/product/fabric-softener/?share=tumblr
+09:40:08	Warning: 	File has moved from https://clany.vamtam.com/product/fabric-softener/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Ffabric-softener%2F&t=Fabric%20Softener&s=
+09:40:13	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14782 (from https://clany.vamtam.com/product/bathroom-cleaner/)
+09:40:14	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fbathroom-cleaner%2F (from https://clany.vamtam.com/product/bathroom-cleaner/)
+09:40:14	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fbathroom-cleaner%2F&format=xml (from https://clany.vamtam.com/product/bathroom-cleaner/)
+09:40:18	Warning: 	Found for https://clany.vamtam.com/product/bathroom-cleaner/?share=facebook
+09:40:18	Warning: 	File has moved from https://clany.vamtam.com/product/bathroom-cleaner/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fbathroom-cleaner%2F&t=Bathroom%20Cleaner
+09:40:19	Warning: 	Found for https://clany.vamtam.com/product/bathroom-cleaner/?share=twitter
+09:40:19	Warning: 	File has moved from https://clany.vamtam.com/product/bathroom-cleaner/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Bathroom%20Cleaner&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fbathroom-cleaner%2F
+09:40:20	Warning: 	Found for https://clany.vamtam.com/product/bathroom-cleaner/?share=pinterest
+09:40:20	Warning: 	File has moved from https://clany.vamtam.com/product/bathroom-cleaner/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fbathroom-cleaner%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-11.jpg&description=Bathroom%20Cleaner
+09:40:20	Warning: 	Found for https://clany.vamtam.com/product/bathroom-cleaner/?share=tumblr
+09:40:20	Warning: 	File has moved from https://clany.vamtam.com/product/bathroom-cleaner/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fbathroom-cleaner%2F&t=Bathroom%20Cleaner&s=
+09:40:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14787 (from https://clany.vamtam.com/product/scentables/)
+09:40:26	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fscentables%2F (from https://clany.vamtam.com/product/scentables/)
+09:40:26	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fscentables%2F&format=xml (from https://clany.vamtam.com/product/scentables/)
+09:40:26	Warning: 	Found for https://clany.vamtam.com/product/scentables/?share=facebook
+09:40:26	Warning: 	File has moved from https://clany.vamtam.com/product/scentables/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fscentables%2F&t=Scentables
+09:40:26	Warning: 	Found for https://clany.vamtam.com/product/scentables/?share=twitter
+09:40:26	Warning: 	File has moved from https://clany.vamtam.com/product/scentables/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Scentables&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fscentables%2F
+09:40:26	Warning: 	Found for https://clany.vamtam.com/product/scentables/?share=pinterest
+09:40:26	Warning: 	File has moved from https://clany.vamtam.com/product/scentables/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fscentables%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-12.jpg&description=Scentables
+09:40:26	Warning: 	Found for https://clany.vamtam.com/product/scentables/?share=tumblr
+09:40:26	Warning: 	File has moved from https://clany.vamtam.com/product/scentables/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fscentables%2F&t=Scentables&s=
+09:40:31	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=13253
+09:40:31	Warning: 	File has moved from https://clany.vamtam.com/?p=13253 to https://clany.vamtam.com/checkout/
+09:41:16	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=12448
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/?p=12448 to https://clany.vamtam.com/new-yorkers-say-flexible-economy-companies-empower-workers/
+09:41:16	Warning: 	Found for https://clany.vamtam.com/new-yorkers-say-flexible-economy-companies-empower-workers/?share=facebook
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/new-yorkers-say-flexible-economy-companies-empower-workers/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fnew-yorkers-say-flexible-economy-companies-empower-workers%2F&t=New%20Yorkers%20Say%3A%20Flexible%20Economy%20Companies%20Empower%20Workers
+09:41:16	Warning: 	Found for https://clany.vamtam.com/new-yorkers-say-flexible-economy-companies-empower-workers/?share=twitter
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/new-yorkers-say-flexible-economy-companies-empower-workers/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=New%20Yorkers%20Say%3A%20Flexible%20Economy%20Companies%20Empower%20Workers&url=https%3A%2F%2Fclany.vamtam.com%2Fnew-yorkers-say-flexible-economy-companies-empower-workers%2F
+09:41:16	Warning: 	Found for https://clany.vamtam.com/new-yorkers-say-flexible-economy-companies-empower-workers/?share=pinterest
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/new-yorkers-say-flexible-economy-companies-empower-workers/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fnew-yorkers-say-flexible-economy-companies-empower-workers%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2018%2F07%2Fcropped-Fav_ivon_Clany-100x100.png&description=New%20Yorkers%20Say%3A%20Flexible%20Economy%20Companies%20Empower%20Workers
+09:41:16	Warning: 	Found for https://clany.vamtam.com/new-yorkers-say-flexible-economy-companies-empower-workers/?share=tumblr
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/new-yorkers-say-flexible-economy-companies-empower-workers/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fnew-yorkers-say-flexible-economy-companies-empower-workers%2F&t=New%20Yorkers%20Say%3A%20Flexible%20Economy%20Companies%20Empower%20Workers&s=
+09:41:16	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=299
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/?p=299 to https://clany.vamtam.com/what-kind-of-music-should-we-listen-to-when-doing-the-cleaning/
+09:41:16	Warning: 	Found for https://clany.vamtam.com/what-kind-of-music-should-we-listen-to-when-doing-the-cleaning/?share=facebook
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/what-kind-of-music-should-we-listen-to-when-doing-the-cleaning/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fwhat-kind-of-music-should-we-listen-to-when-doing-the-cleaning%2F&t=What%20kind%20of%20music%2C%20should%20we%20listen%20to%20when%20doing%20the%20Cleaning
+09:41:16	Warning: 	Found for https://clany.vamtam.com/what-kind-of-music-should-we-listen-to-when-doing-the-cleaning/?share=twitter
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/what-kind-of-music-should-we-listen-to-when-doing-the-cleaning/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=What%20kind%20of%20music%2C%20should%20we%20listen%20to%20when%20doing%20the%20Cleaning&url=https%3A%2F%2Fclany.vamtam.com%2Fwhat-kind-of-music-should-we-listen-to-when-doing-the-cleaning%2F
+09:41:16	Warning: 	Found for https://clany.vamtam.com/what-kind-of-music-should-we-listen-to-when-doing-the-cleaning/?share=pinterest
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/what-kind-of-music-should-we-listen-to-when-doing-the-cleaning/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fwhat-kind-of-music-should-we-listen-to-when-doing-the-cleaning%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2018%2F07%2Fcropped-Fav_ivon_Clany-100x100.png&description=What%20kind%20of%20music%2C%20should%20we%20listen%20to%20when%20doing%20the%20Cleaning
+09:41:16	Warning: 	Found for https://clany.vamtam.com/what-kind-of-music-should-we-listen-to-when-doing-the-cleaning/?share=tumblr
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/what-kind-of-music-should-we-listen-to-when-doing-the-cleaning/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fwhat-kind-of-music-should-we-listen-to-when-doing-the-cleaning%2F&t=What%20kind%20of%20music%2C%20should%20we%20listen%20to%20when%20doing%20the%20Cleaning&s=
+09:41:16	Warning: 	Moved Permanently for https://clany.vamtam.com/author/admin/page/1/
+09:41:16	Warning: 	File has moved from https://clany.vamtam.com/author/admin/page/1/ to https://clany.vamtam.com/author/admin/
+09:41:21	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=12483
+09:41:21	Warning: 	File has moved from https://clany.vamtam.com/?p=12483 to https://clany.vamtam.com/hiring-professional-cleaners/
+09:41:24	Warning: 	Found for https://clany.vamtam.com/hiring-professional-cleaners/?share=facebook
+09:41:24	Warning: 	File has moved from https://clany.vamtam.com/hiring-professional-cleaners/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fhiring-professional-cleaners%2F&t=Hiring%20professional%20cleaners%20for%20retail
+09:41:24	Warning: 	Found for https://clany.vamtam.com/hiring-professional-cleaners/?share=twitter
+09:41:24	Warning: 	File has moved from https://clany.vamtam.com/hiring-professional-cleaners/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Hiring%20professional%20cleaners%20for%20retail&url=https%3A%2F%2Fclany.vamtam.com%2Fhiring-professional-cleaners%2F
+09:41:24	Warning: 	Found for https://clany.vamtam.com/hiring-professional-cleaners/?share=pinterest
+09:41:24	Warning: 	File has moved from https://clany.vamtam.com/hiring-professional-cleaners/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fhiring-professional-cleaners%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2010%2F04%2Fphoto-4.jpg&description=Hiring%20professional%20cleaners%20for%20retail
+09:41:24	Warning: 	Found for https://clany.vamtam.com/hiring-professional-cleaners/?share=tumblr
+09:41:24	Warning: 	File has moved from https://clany.vamtam.com/hiring-professional-cleaners/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fhiring-professional-cleaners%2F&t=Hiring%20professional%20cleaners%20for%20retail&s=
+09:41:24	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=12438
+09:41:24	Warning: 	File has moved from https://clany.vamtam.com/?p=12438 to https://clany.vamtam.com/video-homematters/
+09:41:24	Warning: 	Found for https://clany.vamtam.com/video-homematters/?share=facebook
+09:41:24	Warning: 	File has moved from https://clany.vamtam.com/video-homematters/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fvideo-homematters%2F&t=Video%3A%20HomeMatters
+09:41:24	Warning: 	Found for https://clany.vamtam.com/video-homematters/?share=twitter
+09:41:24	Warning: 	File has moved from https://clany.vamtam.com/video-homematters/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Video%3A%20HomeMatters&url=https%3A%2F%2Fclany.vamtam.com%2Fvideo-homematters%2F
+09:41:24	Warning: 	Found for https://clany.vamtam.com/video-homematters/?share=pinterest
+09:41:24	Warning: 	File has moved from https://clany.vamtam.com/video-homematters/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fvideo-homematters%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2018%2F07%2Fphoto-24.jpg&description=Video%3A%20HomeMatters
+09:41:25	Warning: 	Found for https://clany.vamtam.com/video-homematters/?share=tumblr
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/video-homematters/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fvideo-homematters%2F&t=Video%3A%20HomeMatters&s=
+09:41:25	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=1499
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/?p=1499 to https://clany.vamtam.com/6-handy-tips-to-help-you-spend-less-time-on-housework/
+09:41:25	Warning: 	Found for https://clany.vamtam.com/6-handy-tips-to-help-you-spend-less-time-on-housework/?share=facebook
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/6-handy-tips-to-help-you-spend-less-time-on-housework/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2F6-handy-tips-to-help-you-spend-less-time-on-housework%2F&t=6%20Handy%20Tips%20To%20Help%20You%20Spend%20Less%20Time%20On%20Housework
+09:41:25	Warning: 	Found for https://clany.vamtam.com/6-handy-tips-to-help-you-spend-less-time-on-housework/?share=twitter
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/6-handy-tips-to-help-you-spend-less-time-on-housework/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=6%20Handy%20Tips%20To%20Help%20You%20Spend%20Less%20Time%20On%20Housework&url=https%3A%2F%2Fclany.vamtam.com%2F6-handy-tips-to-help-you-spend-less-time-on-housework%2F
+09:41:25	Warning: 	Found for https://clany.vamtam.com/6-handy-tips-to-help-you-spend-less-time-on-housework/?share=pinterest
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/6-handy-tips-to-help-you-spend-less-time-on-housework/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2F6-handy-tips-to-help-you-spend-less-time-on-housework%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2013%2F09%2Fphoto-18.jpg&description=6%20Handy%20Tips%20To%20Help%20You%20Spend%20Less%20Time%20On%20Housework
+09:41:25	Warning: 	Found for https://clany.vamtam.com/6-handy-tips-to-help-you-spend-less-time-on-housework/?share=tumblr
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/6-handy-tips-to-help-you-spend-less-time-on-housework/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2F6-handy-tips-to-help-you-spend-less-time-on-housework%2F&t=6%20Handy%20Tips%20To%20Help%20You%20Spend%20Less%20Time%20On%20Housework&s=
+09:41:25	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=12445
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/?p=12445 to https://clany.vamtam.com/benefits-of-a-kitchen-island/
+09:41:25	Warning: 	Found for https://clany.vamtam.com/benefits-of-a-kitchen-island/?share=facebook
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/benefits-of-a-kitchen-island/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fbenefits-of-a-kitchen-island%2F&t=Benefits%20of%20A%20Kitchen%20Island
+09:41:25	Warning: 	Found for https://clany.vamtam.com/benefits-of-a-kitchen-island/?share=twitter
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/benefits-of-a-kitchen-island/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Benefits%20of%20A%20Kitchen%20Island&url=https%3A%2F%2Fclany.vamtam.com%2Fbenefits-of-a-kitchen-island%2F
+09:41:25	Warning: 	Found for https://clany.vamtam.com/benefits-of-a-kitchen-island/?share=pinterest
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/benefits-of-a-kitchen-island/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fbenefits-of-a-kitchen-island%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2018%2F07%2Fcropped-Fav_ivon_Clany-100x100.png&description=Benefits%20of%20A%20Kitchen%20Island
+09:41:25	Warning: 	Found for https://clany.vamtam.com/benefits-of-a-kitchen-island/?share=tumblr
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/benefits-of-a-kitchen-island/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fbenefits-of-a-kitchen-island%2F&t=Benefits%20of%20A%20Kitchen%20Island&s=
+09:41:25	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=315
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/?p=315 to https://clany.vamtam.com/portfolio/crisp/
+09:41:25	Warning: 	Found for https://clany.vamtam.com/portfolio/crisp/?share=facebook
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/portfolio/crisp/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fcrisp%2F&t=Crisp
+09:41:25	Warning: 	Found for https://clany.vamtam.com/portfolio/crisp/?share=twitter
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/portfolio/crisp/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Crisp&url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fcrisp%2F
+09:41:25	Warning: 	Found for https://clany.vamtam.com/portfolio/crisp/?share=pinterest
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/portfolio/crisp/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fcrisp%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2014%2F03%2Fphoto-14.jpg&description=Crisp
+09:41:25	Warning: 	Found for https://clany.vamtam.com/portfolio/crisp/?share=tumblr
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/portfolio/crisp/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fportfolio%2Fcrisp%2F&t=Crisp&s=
+09:41:25	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=5352
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/?p=5352 to https://clany.vamtam.com/remove-ink-from-a-carpet/
+09:41:25	Warning: 	Found for https://clany.vamtam.com/remove-ink-from-a-carpet/?share=facebook
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/remove-ink-from-a-carpet/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fremove-ink-from-a-carpet%2F&t=Tips%20on%20how%20to%20remove%20ink%20from%20a%20carpet
+09:41:25	Warning: 	Found for https://clany.vamtam.com/remove-ink-from-a-carpet/?share=twitter
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/remove-ink-from-a-carpet/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Tips%20on%20how%20to%20remove%20ink%20from%20a%20carpet&url=https%3A%2F%2Fclany.vamtam.com%2Fremove-ink-from-a-carpet%2F
+09:41:25	Warning: 	Found for https://clany.vamtam.com/remove-ink-from-a-carpet/?share=pinterest
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/remove-ink-from-a-carpet/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fremove-ink-from-a-carpet%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2014%2F03%2Fphoto-6.jpg&description=Tips%20on%20how%20to%20remove%20ink%20from%20a%20carpet
+09:41:25	Warning: 	Found for https://clany.vamtam.com/remove-ink-from-a-carpet/?share=tumblr
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/remove-ink-from-a-carpet/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fremove-ink-from-a-carpet%2F&t=Tips%20on%20how%20to%20remove%20ink%20from%20a%20carpet&s=
+09:41:25	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=1525
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/?p=1525 to https://clany.vamtam.com/health-code-violations/
+09:41:25	Warning: 	Found for https://clany.vamtam.com/health-code-violations/?share=facebook
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/health-code-violations/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fhealth-code-violations%2F&t=How%20to%20prevent%20restaurant%20health%20code%20violations%20through%20cleaning
+09:41:25	Warning: 	Found for https://clany.vamtam.com/health-code-violations/?share=twitter
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/health-code-violations/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=How%20to%20prevent%20restaurant%20health%20code%20violations%20through%20cleaning&url=https%3A%2F%2Fclany.vamtam.com%2Fhealth-code-violations%2F
+09:41:25	Warning: 	Found for https://clany.vamtam.com/health-code-violations/?share=pinterest
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/health-code-violations/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fhealth-code-violations%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2014%2F03%2Fphoto-14.jpg&description=How%20to%20prevent%20restaurant%20health%20code%20violations%20through%20cleaning
+09:41:25	Warning: 	Found for https://clany.vamtam.com/health-code-violations/?share=tumblr
+09:41:25	Warning: 	File has moved from https://clany.vamtam.com/health-code-violations/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fhealth-code-violations%2F&t=How%20to%20prevent%20restaurant%20health%20code%20violations%20through%20cleaning&s=
+09:41:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=8178 (from https://clany.vamtam.com/classes/common-home-maintenance-myths/)
+09:41:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fcommon-home-maintenance-myths%2F (from https://clany.vamtam.com/classes/common-home-maintenance-myths/)
+09:41:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Fcommon-home-maintenance-myths%2F&format=xml (from https://clany.vamtam.com/classes/common-home-maintenance-myths/)
+09:41:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=8708 (from https://clany.vamtam.com/classes/top-10-move-in-tips/)
+09:41:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Ftop-10-move-in-tips%2F (from https://clany.vamtam.com/classes/top-10-move-in-tips/)
+09:41:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fclasses%2Ftop-10-move-in-tips%2F&format=xml (from https://clany.vamtam.com/classes/top-10-move-in-tips/)
+09:41:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/cleaning/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/cleaning/)
+09:41:30	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/engineering/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/engineering/)
+09:41:35	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/management/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/management/)
+09:41:41	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/commercial/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/commercial/)
+09:41:46	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/workshops/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/workshops/)
+09:41:51	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/design/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/design/)
+09:41:58	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14800 (from https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/)
+09:41:58	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclick-gel-toilet-bowl-cleaner%2F (from https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/)
+09:41:58	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclick-gel-toilet-bowl-cleaner%2F&format=xml (from https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/)
+09:42:04	Warning: 	Found for https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/?share=facebook
+09:42:04	Warning: 	File has moved from https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclick-gel-toilet-bowl-cleaner%2F&t=Click%20Gel%20Toilet%20Bowl%20Cleaner
+09:42:06	Warning: 	Found for https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/?share=twitter
+09:42:06	Warning: 	File has moved from https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Click%20Gel%20Toilet%20Bowl%20Cleaner&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclick-gel-toilet-bowl-cleaner%2F
+09:42:06	Warning: 	Found for https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/?share=pinterest
+09:42:06	Warning: 	File has moved from https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclick-gel-toilet-bowl-cleaner%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-1.jpg&description=Click%20Gel%20Toilet%20Bowl%20Cleaner
+09:42:06	Warning: 	Found for https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/?share=tumblr
+09:42:06	Warning: 	File has moved from https://clany.vamtam.com/product/click-gel-toilet-bowl-cleaner/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclick-gel-toilet-bowl-cleaner%2F&t=Click%20Gel%20Toilet%20Bowl%20Cleaner&s=
+09:42:07	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14805 (from https://clany.vamtam.com/product/laundry-detergent/)
+09:42:07	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Flaundry-detergent%2F (from https://clany.vamtam.com/product/laundry-detergent/)
+09:42:07	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Flaundry-detergent%2F&format=xml (from https://clany.vamtam.com/product/laundry-detergent/)
+09:42:07	Warning: 	Found for https://clany.vamtam.com/product/laundry-detergent/?share=facebook
+09:42:07	Warning: 	File has moved from https://clany.vamtam.com/product/laundry-detergent/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Flaundry-detergent%2F&t=Laundry%20Detergent
+09:42:07	Warning: 	Found for https://clany.vamtam.com/product/laundry-detergent/?share=twitter
+09:42:07	Warning: 	File has moved from https://clany.vamtam.com/product/laundry-detergent/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Laundry%20Detergent&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Flaundry-detergent%2F
+09:42:07	Warning: 	Found for https://clany.vamtam.com/product/laundry-detergent/?share=pinterest
+09:42:07	Warning: 	File has moved from https://clany.vamtam.com/product/laundry-detergent/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Flaundry-detergent%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-6.jpg&description=Laundry%20Detergent
+09:42:07	Warning: 	Found for https://clany.vamtam.com/product/laundry-detergent/?share=tumblr
+09:42:07	Warning: 	File has moved from https://clany.vamtam.com/product/laundry-detergent/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Flaundry-detergent%2F&t=Laundry%20Detergent&s=
+09:42:08	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14783 (from https://clany.vamtam.com/product/premium-laundry-detergent/)
+09:42:08	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-laundry-detergent%2F (from https://clany.vamtam.com/product/premium-laundry-detergent/)
+09:42:08	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-laundry-detergent%2F&format=xml (from https://clany.vamtam.com/product/premium-laundry-detergent/)
+09:42:11	Warning: 	Found for https://clany.vamtam.com/product/premium-laundry-detergent/?share=facebook
+09:42:11	Warning: 	File has moved from https://clany.vamtam.com/product/premium-laundry-detergent/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-laundry-detergent%2F&t=Premium%20Laundry%20Detergent
+09:42:11	Warning: 	Found for https://clany.vamtam.com/product/premium-laundry-detergent/?share=twitter
+09:42:11	Warning: 	File has moved from https://clany.vamtam.com/product/premium-laundry-detergent/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Premium%20Laundry%20Detergent&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-laundry-detergent%2F
+09:42:16	Warning: 	Found for https://clany.vamtam.com/product/premium-laundry-detergent/?share=pinterest
+09:42:16	Warning: 	File has moved from https://clany.vamtam.com/product/premium-laundry-detergent/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-laundry-detergent%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2014%2F07%2Fproduct-16.jpg&description=Premium%20Laundry%20Detergent
+09:42:16	Warning: 	Found for https://clany.vamtam.com/product/premium-laundry-detergent/?share=tumblr
+09:42:16	Warning: 	File has moved from https://clany.vamtam.com/product/premium-laundry-detergent/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fpremium-laundry-detergent%2F&t=Premium%20Laundry%20Detergent&s=
+09:42:17	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14793 (from https://clany.vamtam.com/product/multi-surface-cleaner/)
+09:42:17	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fmulti-surface-cleaner%2F (from https://clany.vamtam.com/product/multi-surface-cleaner/)
+09:42:17	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fmulti-surface-cleaner%2F&format=xml (from https://clany.vamtam.com/product/multi-surface-cleaner/)
+09:42:17	Warning: 	Found for https://clany.vamtam.com/product/multi-surface-cleaner/?share=facebook
+09:42:17	Warning: 	File has moved from https://clany.vamtam.com/product/multi-surface-cleaner/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fmulti-surface-cleaner%2F&t=Multi-Surface%20Cleaner
+09:42:17	Warning: 	Found for https://clany.vamtam.com/product/multi-surface-cleaner/?share=twitter
+09:42:17	Warning: 	File has moved from https://clany.vamtam.com/product/multi-surface-cleaner/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Multi-Surface%20Cleaner&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fmulti-surface-cleaner%2F
+09:42:17	Warning: 	Found for https://clany.vamtam.com/product/multi-surface-cleaner/?share=pinterest
+09:42:17	Warning: 	File has moved from https://clany.vamtam.com/product/multi-surface-cleaner/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fmulti-surface-cleaner%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-9.jpg&description=Multi-Surface%20Cleaner
+09:42:17	Warning: 	Found for https://clany.vamtam.com/product/multi-surface-cleaner/?share=tumblr
+09:42:17	Warning: 	File has moved from https://clany.vamtam.com/product/multi-surface-cleaner/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fmulti-surface-cleaner%2F&t=Multi-Surface%20Cleaner&s=
+09:42:19	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14792 (from https://clany.vamtam.com/product/daily-shower-cleaner/)
+09:42:19	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-shower-cleaner%2F (from https://clany.vamtam.com/product/daily-shower-cleaner/)
+09:42:19	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-shower-cleaner%2F&format=xml (from https://clany.vamtam.com/product/daily-shower-cleaner/)
+09:42:19	Warning: 	Found for https://clany.vamtam.com/product/daily-shower-cleaner/?share=facebook
+09:42:19	Warning: 	File has moved from https://clany.vamtam.com/product/daily-shower-cleaner/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-shower-cleaner%2F&t=Daily%20Shower%20Cleaner
+09:42:19	Warning: 	Found for https://clany.vamtam.com/product/daily-shower-cleaner/?share=twitter
+09:42:19	Warning: 	File has moved from https://clany.vamtam.com/product/daily-shower-cleaner/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Daily%20Shower%20Cleaner&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-shower-cleaner%2F
+09:42:19	Warning: 	Found for https://clany.vamtam.com/product/daily-shower-cleaner/?share=pinterest
+09:42:19	Warning: 	File has moved from https://clany.vamtam.com/product/daily-shower-cleaner/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-shower-cleaner%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-10.jpg&description=Daily%20Shower%20Cleaner
+09:42:19	Warning: 	Found for https://clany.vamtam.com/product/daily-shower-cleaner/?share=tumblr
+09:42:19	Warning: 	File has moved from https://clany.vamtam.com/product/daily-shower-cleaner/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-shower-cleaner%2F&t=Daily%20Shower%20Cleaner&s=
+09:42:19	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14797 (from https://clany.vamtam.com/product/proclean-power-caps/)
+09:42:19	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fproclean-power-caps%2F (from https://clany.vamtam.com/product/proclean-power-caps/)
+09:42:19	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fproclean-power-caps%2F&format=xml (from https://clany.vamtam.com/product/proclean-power-caps/)
+09:42:19	Warning: 	Found for https://clany.vamtam.com/product/proclean-power-caps/?share=facebook
+09:42:19	Warning: 	File has moved from https://clany.vamtam.com/product/proclean-power-caps/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fproclean-power-caps%2F&t=ProClean%20Power-Caps
+09:42:19	Warning: 	Found for https://clany.vamtam.com/product/proclean-power-caps/?share=twitter
+09:42:19	Warning: 	File has moved from https://clany.vamtam.com/product/proclean-power-caps/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=ProClean%20Power-Caps&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fproclean-power-caps%2F
+09:42:19	Warning: 	Found for https://clany.vamtam.com/product/proclean-power-caps/?share=pinterest
+09:42:19	Warning: 	File has moved from https://clany.vamtam.com/product/proclean-power-caps/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fproclean-power-caps%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-13.jpg&description=ProClean%20Power-Caps
+09:42:19	Warning: 	Found for https://clany.vamtam.com/product/proclean-power-caps/?share=tumblr
+09:42:19	Warning: 	File has moved from https://clany.vamtam.com/product/proclean-power-caps/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fproclean-power-caps%2F&t=ProClean%20Power-Caps&s=
+09:42:20	Warning: 	Moved Permanently for https://clany.vamtam.com/?p=9703
+09:42:20	Warning: 	File has moved from https://clany.vamtam.com/?p=9703 to https://clany.vamtam.com/my-account/
+09:42:22	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14799 (from https://clany.vamtam.com/product/clog-remover/)
+09:42:22	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclog-remover%2F (from https://clany.vamtam.com/product/clog-remover/)
+09:42:22	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclog-remover%2F&format=xml (from https://clany.vamtam.com/product/clog-remover/)
+09:42:22	Warning: 	Found for https://clany.vamtam.com/product/clog-remover/?share=facebook
+09:42:22	Warning: 	File has moved from https://clany.vamtam.com/product/clog-remover/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclog-remover%2F&t=Clog%20Remover
+09:42:22	Warning: 	Found for https://clany.vamtam.com/product/clog-remover/?share=twitter
+09:42:22	Warning: 	File has moved from https://clany.vamtam.com/product/clog-remover/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Clog%20Remover&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclog-remover%2F
+09:42:22	Warning: 	Found for https://clany.vamtam.com/product/clog-remover/?share=pinterest
+09:42:22	Warning: 	File has moved from https://clany.vamtam.com/product/clog-remover/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclog-remover%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-15.jpg&description=Clog%20Remover
+09:42:22	Warning: 	Found for https://clany.vamtam.com/product/clog-remover/?share=tumblr
+09:42:22	Warning: 	File has moved from https://clany.vamtam.com/product/clog-remover/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fclog-remover%2F&t=Clog%20Remover&s=
+09:42:24	Error: 	"Not Found" (404) at link https://clany.vamtam.com/?p=14798 (from https://clany.vamtam.com/product/daily-granite-cleans-polishes/)
+09:42:24	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-granite-cleans-polishes%2F (from https://clany.vamtam.com/product/daily-granite-cleans-polishes/)
+09:42:24	Error: 	"Not Found" (404) at link https://clany.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-granite-cleans-polishes%2F&format=xml (from https://clany.vamtam.com/product/daily-granite-cleans-polishes/)
+09:42:24	Warning: 	Found for https://clany.vamtam.com/product/daily-granite-cleans-polishes/?share=facebook
+09:42:24	Warning: 	File has moved from https://clany.vamtam.com/product/daily-granite-cleans-polishes/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-granite-cleans-polishes%2F&t=Daily%20Granite%20Cleans%20%2B%20Polishes
+09:42:24	Warning: 	Found for https://clany.vamtam.com/product/daily-granite-cleans-polishes/?share=twitter
+09:42:24	Warning: 	File has moved from https://clany.vamtam.com/product/daily-granite-cleans-polishes/?share=twitter to https://twitter.com/intent/tweet?via=vamtam&text=Daily%20Granite%20Cleans%20%2B%20Polishes&url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-granite-cleans-polishes%2F
+09:42:24	Warning: 	Found for https://clany.vamtam.com/product/daily-granite-cleans-polishes/?share=pinterest
+09:42:24	Warning: 	File has moved from https://clany.vamtam.com/product/daily-granite-cleans-polishes/?share=pinterest to https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-granite-cleans-polishes%2F&media=https%3A%2F%2Fclany.vamtam.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fproduct-14.jpg&description=Daily%20Granite%20Cleans%20%2B%20Polishes
+09:42:24	Warning: 	Found for https://clany.vamtam.com/product/daily-granite-cleans-polishes/?share=tumblr
+09:42:24	Warning: 	File has moved from https://clany.vamtam.com/product/daily-granite-cleans-polishes/?share=tumblr to https://www.tumblr.com/share?v=3&u=https%3A%2F%2Fclany.vamtam.com%2Fproduct%2Fdaily-granite-cleans-polishes%2F&t=Daily%20Granite%20Cleans%20%2B%20Polishes&s=
+09:42:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/cleaning/list/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/cleaning/list/)
+09:42:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/cleaning/list/%22https:/clany.vamtam.com/events/%22Past (from https://clany.vamtam.com/events/category/cleaning/list/?tribe_event_display=past&tribe_paged=1)
+09:42:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/engineering/list/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/engineering/list/)
+09:42:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/engineering/list/%22https:/clany.vamtam.com/events/%22Past (from https://clany.vamtam.com/events/category/engineering/list/?tribe_event_display=past&tribe_paged=1)
+09:42:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/management/list/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/management/list/)
+09:42:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/management/list/%22https:/clany.vamtam.com/events/%22Past (from https://clany.vamtam.com/events/category/management/list/?tribe_event_display=past&tribe_paged=1)
+09:42:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/commercial/list/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/commercial/list/)
+09:42:25	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/commercial/list/%22https:/clany.vamtam.com/events/%22Past (from https://clany.vamtam.com/events/category/commercial/list/?tribe_event_display=past&tribe_paged=1)
+09:42:26	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/workshops/list/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/workshops/list/)
+09:42:26	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/workshops/list/%22https:/clany.vamtam.com/events/%22Past (from https://clany.vamtam.com/events/category/workshops/list/?tribe_event_display=past&tribe_paged=1)
+09:42:26	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/design/list/%22https:/clany.vamtam.com/events/%22Upcoming (from https://clany.vamtam.com/events/category/design/list/)
+09:42:26	Error: 	"Not Found" (404) at link https://clany.vamtam.com/events/category/design/list/%22https:/clany.vamtam.com/events/%22Past (from https://clany.vamtam.com/events/category/design/list/?tribe_event_display=past&tribe_paged=1)
+
+HTTrack Website Copier/3.49-2 mirror complete in 14 minutes 14 seconds : 1348 links scanned, 1018 files written (100757755 bytes overall) [31712329 bytes received at 37133 bytes/sec], 94057791 bytes transferred using HTTP compression in 841 files, ratio 13%, 43.9 requests per connection
+(104 errors, 454 warnings, 0 messages)
