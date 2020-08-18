@@ -1,0 +1,30 @@
+{
+  "name": "mrobonye",
+  "version": "1.0.0",
+  "description": "personal portfolio using the MERN stack ",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel serve index.html",
+    "tidy": "prettier --write ./src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrObonye/mrobonye.github.io.git"
+  },
+  "author": "Letlhogonolo Theodore Obonye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrObonye/mrobonye.github.io/issues"
+  },
+  "homepage": "https://github.com/MrObonye/mrobonye.github.io#readme"
+}
