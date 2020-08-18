@@ -14,7 +14,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx parcel serve index.html",
-    "tidy": "prettier --write ./src/index.html"
+    "tidy": "prettier --write ./src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
