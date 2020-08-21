@@ -4,18 +4,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width-device-width, initial-scale=1.0">
-  <title>O | Software Developer</title>
+  <title>T.O | Software Developer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
     crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/assets/style.css">
 </head>
 
 <body>
   <header class="sidebar">
     <a class="logo" href="#">
-      <img src="" alt="" class="" id="">
+      <h1 class="logo-text">T</h1>
+      <h1 class="letter-o">O</h1>
+      <p class="logo-caption">Theo</p>
+      <p class="logo-caption-2">Obonye</p>
     </a>
     <nav class="sidenav">
       <a href="#home" class="icon-home"><i class="fas fa-house-user"></i><b>HOME</b></a>
@@ -30,22 +35,34 @@
       <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
       <li><a href="#" target="_blank"><i class="fab fa-github-alt"></i></a></li>
     </ul>
-    <button class="nav-toggle mobile-link" aria-label="toggle navigation">
-      <span class="hamburger"></span>
-    </button>
+    <a  class="nav-toggle mobile-link" aria-label="toggle navigation" onclick="myFunction()" href="javascript:void(0);" >
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav  id="myLinks" class="en show mobile-menu"> 
+      <a href="#home" class="icon-home"><i class="fas fa-house-user"></i></a>
+      <a href="#services" class="icon-skills"><i class="fas fa-cogs"></i></i></a>
+      <a href="#services" class="icon-work"><i class="far fa-eye"></i></a>
+      <a href="#clients" class="icon-about"><i class="fa fa-fw fa-user"></i></a>
+      <a href="#contact" class="icon-contact"><i class="far fa-envelope"></i></i></a>
+        </nav>
+    <script>
+      function myFunction() {
+        let x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </header>
   <main>
-    <div class="main">
-      <h2>Sidebar with Icons</h2>
-      <p>This side navigation is of full height (100%) and always shown.</p>
-      <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo.
-        Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint
-        efficiantur his ad. Eum no molestiae voluptatibus.</p>
-      <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo.
-        Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint
-        efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <div class="main container">
+      
+      
     </div>
   </main>
+
   <footer></footer>
 </body>
 

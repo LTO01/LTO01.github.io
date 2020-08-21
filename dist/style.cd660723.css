@@ -6,7 +6,7 @@
   #dbd7d4 = light grey
   #9b9183 = darkgrey
   */
-
+/* ------------------------General CSS Styling-------------------------------------- */
 body {
   font-family: 'Lato', sans-serif;
   background-color: #0e1821;
@@ -14,6 +14,8 @@ body {
   overflow: hidden;
   display: block;
 }
+
+/* ----------------------------------logo styling------------------------------------ */
 .logo img {
   display: block;
   margin: 8px auto;
@@ -25,7 +27,35 @@ body {
   display: block;
   text-decoration: none;
   padding: 8px 0;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: #fee970;
 }
+.logo .logo-text {
+  display: block;
+  text-shadow: 0 0 8px #6a4cf1, 0 0 5px #dbd7d4;
+}
+.logo .letter-o {
+  display: none;
+  text-shadow: 0 0 8px #6a4cf1, 0 0 5px #dbd7d4;
+}
+.logo .logo-caption {
+  display: block;
+}
+.logo .logo-caption-2 {
+  display: none;
+}
+.logo p {
+  font-family: 'Permanent Marker', cursive;
+  color: #dbd7d4;
+  font-size: 9px;
+  letter-spacing: 2px;
+  bottom: 0;
+  /* position: absolute; */
+  width: 100%;
+  text-align: center;
+}
+/* ------------------------------------sidebar styling---------------------------- */
 .sidebar {
   height: 100%;
   width: 60px;
@@ -49,7 +79,7 @@ body {
 }
 .sidebar ul li {
   display: list-item;
-  text-align: -webkit-match-parent;
+  /* text-align: -webkit-match-parent; */
 }
 .sidebar .sidenav {
   display: block;
@@ -64,18 +94,21 @@ body {
 }
 
 .sidebar .sidenav a {
-  /* padding: 6px 8px 6px 16px; */
+  font-family: 'Covered By Your Grace', cursive;
   text-decoration: none;
   font-size: 20px;
   display: block;
   font-size: 20px;
   color: #909096;
   margin-bottom: 15px;
-  display: block;
   line-height: 51px;
   height: 51px;
   position: relative;
-  text-decoration: none;
+  
+}
+.sidebar .sidenav  a i {
+  text-align: center;
+  padding-top: 20px;
 }
 
 .sidebar ul li a:hover {
@@ -83,16 +116,19 @@ body {
 }
 .sidebar .sidenav a b {
   display: none;
+  line-height: 51px;
+  height: 51px;
 }
 .sidebar .sidenav a:hover i {
-  color:  #fee970;
+  color: #fee970;
   display: none;
 }
 
 .sidebar .sidenav a:hover b {
-  color:  #fee970;
+  font-family: 'Covered By Your Grace', cursive;
+  color: #fee970;
   display: block;
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: 2px;
   bottom: 0;
   display: block;
@@ -101,84 +137,6 @@ body {
   text-align: center;
 }
 
-/* .sidebar .sidenav a:first-child:hover::after {
-  content: "HOME";
-  color: #e4b61a;
-  font-size: 9px;
-  letter-spacing: 2px;
-  bottom: 0;
-  display: block;
-  position: relative;
-  width: 100%;
-  text-align: center;
-} */
-/* .sidebar .sidenav a:first-child:hover::before {
-  animation-name: home-icon;
-  transition: all 0.3s ease-out;
-  color: #e4b61a;
-  animation-fill-mode: forwards;
-} */
-/* .sidebar .sidenav a:hover::after {
-  content: 'HOME';
-  color: #e4b61a;
-  font-size: 9px;
-  letter-spacing: 2px;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  text-align: center;
-} */
-
-/* .sidebar .sidenav a .fa-cogs:hover::before {
-  animation-name: home-icon;
-  transition: all 0.3s ease-out;
-  color: #e4b61a;
-  animation-fill-mode: forwards;
-}
-.sidebar .sidenav a .fa-cogs:hover::after {
-  content: 'SKILLS';
-  color: #e4b61a;
-  font-size: 9px;
-  letter-spacing: 2px;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-.sidebar .sidenav a .fa-user:hover::before {
-  animation-name: icons;
-  transition: all 0.3s ease-out;
-  color: #e4b61a;
-  animation-fill-mode: forwards;
-}
-.sidebar .sidenav a .fa-user:hover::after {
-  content: 'ABOUT';
-  color: #e4b61a;
-  font-size: 9px;
-  letter-spacing: 2px;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-.sidebar .sidenav a .fa-envelope:hover::before {
-  animation-name: home-icon;
-  transition: all 0.3s ease-out;
-  color: #e4b61a;
-  animation-fill-mode: forwards;
-}
-.sidebar .sidenav a .fa-envelope:hover::after {
-  content: "CONTACT";
-  color: #e4b61a;
-
-}
-
-@keyframes icons {
-  100% {
-    content: "";
-    
-  }
-} */
 .sidebar .sidenav a {
   font-family: 'icomoon' !important;
   font-style: normal;
@@ -190,9 +148,150 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.mobile-link {
+.mobile-link, .mobile-menu {
   display: none;
 }
+
+/* ------------------------------Responsiveness Navbar------------------------------ */
+@media (max-width: 960px) {
+  .logo {
+    float: left;
+    padding: 2px 0;
+    margin-right: 20px;
+}
+}
+@media (max-width: 960px) and (max-width: 530px) {
+  .logo {
+    width: 15%;
+  }
+  .logo .logo-text {
+    font-size: 25px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  }
+}
+@media (max-width: 960px) {
+  .logo>h1:first-child {
+    height: 30px;
+}
+}
+
+@media (max-width: 960px) {
+  .logo img {
+    display: block;
+    margin: 5px 15px;
+    width: auto;
+    height: auto;
+}
+}
+
+@media (max-width: 960px) {
+ .sidebar {
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    min-height: 0;
+}
+}
+
+
+@media (max-width: 530px) {
+  .sidebar {
+    position: fixed;
+  }
+}
+
+@media (max-width: 960px) {
+  .sidebar {
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 530px) {
+  .mobile-link {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    margin: 10px 20px 10px 10px;
+    display: block;
+}
+.mobile-link:hover {
+  color:#fee970;
+}
+}
+@media (max-width: 530px) {
+  .sidebar ul {
+    display: none;
+}
+}
+@media (max-width: 530px) {
+  .sidebar nav {
+    width: 100%;
+    position: fixed;
+    left: 100%;
+    opacity: 0;
+    margin-left: 0;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    height: 60px;
+    top: 60px;
+    margin-top: 0;
+    background: #181818;
+    transition: all .3s ease-out;
+}
+}
+@media (max-width: 530px) {
+  .sidebar nav.show {
+    left: 0;
+    opacity: 1;
+}
+.sidebar .mobile-menu {
+  width: 100%;
+  position: fixed;
+  left: 100%;
+  opacity: 0;
+  margin-left: 0;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  height: 60px;
+  top: 60px;
+  margin-top: 0;
+  background: #131317;
+  transition: all .3s ease-out;
+} 
+.sidebar .mobile-menu a {
+  float: left;
+  margin-left: 0 !important;
+  line-height: 60px;
+  height: 60px;
+  width: 20%;
+  color: #909096;
+}
+.sidebar .mobile-menu a:hover, .sidebar .mobile-menu a:active {
+  color: #fee970;
+}
+}
+
+
+
+
+
+
+/* end of Sidebar styling */
 
 .main {
   margin-left: 60px; /* Same as the width of the sidenav */
