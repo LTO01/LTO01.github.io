@@ -1,11 +1,17 @@
+:root {
+  --primary-color: #1a1a2e;
+  --secondary-color: #e94560;
+  --tertiary-color: #16213e;
+  --supplementary-color: #0f3460;
+  --highlight: gold;
+}
 body {
-  background-color: #0e1821;
-  color: #dbd7d4;
+  background-color: var(--primary-color);
+  color: var(--supplementary-color);
   overflow: hidden;
   display: block;
 }
 .logo {
-  background: #070707;
   display: block;
   padding: 8px 0;
   font-family: 'Permanent Marker', cursive;
@@ -26,7 +32,7 @@ body {
   width: 24px;
   height: auto;
   font-family: 'Covered By Your Grace', cursive;
-  color: antiquewhite;
+  color: var(--supplementary-color)
 }
 a {
   background-color: transparent;
@@ -37,7 +43,7 @@ b {
   font-size: medium;
 }
 #nav-bar {
-  background-color: #131317;
+  background-color: var(--nav-bar-hue);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -64,7 +70,7 @@ b {
 }
 #nav-bar nav a {
   font-size: 20px;
-  color: #909096;
+  color: var(--supplementary-color);
   margin-bottom: 15px;
   display: block;
   line-height: 51px;
@@ -77,11 +83,11 @@ b {
   display: block;
   font-size: 15px;
   line-height: 16px;
-  color: #909096;
+  color: var(--supplementary-color);
 }
 #nav-bar a:hover,
 #nav-bar a:active {
-  color: gold;
+  color: var(--tertiary-color);
 }
 #nav-bar nav a b {
   display: none;
@@ -90,12 +96,10 @@ b {
   display: block;
   font-size: 11px;
   letter-spacing: 2px;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   text-align: center;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
 #nav-bar nav a:hover i {
   opacity: 0;
@@ -105,8 +109,6 @@ b {
   bottom: 0;
   width: 100%;
   text-align: center;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
 
 /* On screens that are 992px wide or less, the background color is blue */
@@ -115,7 +117,6 @@ b {
     float: left;
     padding: 2px 0;
     margin-right: 20px;
-    background: #070707;
     display: block;
   }
   .logo .t {
@@ -224,7 +225,7 @@ b {
     height: 60px;
     width: 20%;
     font-size: 20px;
-    color: #909096;
+    color: var(--supplementary-color);
     margin-bottom: 15px;
     display: block;
     line-height: 51px;
@@ -240,7 +241,7 @@ b {
   }
 }
 @media screen and (max-width: 600px) {
-  #nav-bar nav.show {
+  #nav-bar .show {
     opacity: 1;
     left: 0;
   }
