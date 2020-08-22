@@ -4,12 +4,13 @@
   --tertiary-color: #16213e;
   --supplementary-color: #0f3460;
   --highlight: gold;
+  --text-hue: whitesmoke;
 }
 body {
-  background-color: #1a1a2e;
-  background-color: var(--primary-color);
-  color: #0f3460;
-  color: var(--supplementary-color);
+  background-color: #0f3460;
+  background-color: var(--supplementary-color);
+  color: whitesmoke;
+  color: var(--text-hue);
   overflow: hidden;
   display: block;
 }
@@ -19,7 +20,8 @@ body {
   font-family: 'Permanent Marker', cursive;
   /* font-family: 'Shadows Into Light', cursive; */
   color: gold;
-  text-shadow: 2px 2px 4px #0da15c;
+  text-shadow: 2px 2px 4px #e94560;
+  text-shadow: 2px 2px 4px var(--secondary-color);
 }
 .logo .t {
   display: block;
@@ -34,8 +36,8 @@ body {
   width: 24px;
   height: auto;
   font-family: 'Covered By Your Grace', cursive;
-  color: #0f3460;
-  color: var(--supplementary-color)
+  color: whitesmoke;
+  color: var(--text-hue)
 }
 a {
   background-color: transparent;
@@ -46,7 +48,8 @@ b {
   font-size: medium;
 }
 #nav-bar {
-  background-color: var(--nav-bar-hue);
+  background-color: #1a1a2e;
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -73,8 +76,8 @@ b {
 }
 #nav-bar nav a {
   font-size: 20px;
-  color: #0f3460;
-  color: var(--supplementary-color);
+  color: #e94560;
+  color: var(--secondary-color);
   margin-bottom: 15px;
   display: block;
   line-height: 51px;
@@ -87,13 +90,13 @@ b {
   display: block;
   font-size: 15px;
   line-height: 16px;
-  color: #0f3460;
-  color: var(--supplementary-color);
+  color: #e94560;
+  color: var(--secondary-color);
 }
 #nav-bar a:hover,
 #nav-bar a:active {
-  color: #16213e;
-  color: var(--tertiary-color);
+  color: gold;
+  color: var(--highlight);
 }
 #nav-bar nav a b {
   display: none;
