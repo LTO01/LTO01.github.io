@@ -4,9 +4,37 @@ body {
   overflow: hidden;
   display: block;
 }
+.logo {
+  background: #070707;
+  display: block;
+  padding: 8px 0;
+  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Shadows Into Light', cursive; */
+  color: gold;
+  text-shadow: 2px 2px 4px #0da15c;
+}
+.logo .t {
+  display: block;
+  margin: 8px auto;
+  width: 24px;
+  height: auto;
+}
+
+.logo .theo {
+  display: block;
+  margin: 8px auto;
+  width: 24px;
+  height: auto;
+  font-family: 'Covered By Your Grace', cursive;
+  color: antiquewhite;
+}
 a {
   background-color: transparent;
   text-decoration: none;
+}
+b {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: medium;
 }
 #nav-bar {
   background-color: #131317;
@@ -50,9 +78,34 @@ a {
   line-height: 16px;
   color: #909096;
 }
+#nav-bar a:hover,
+#nav-bar a:active {
+  color: gold;
+}
 #nav-bar nav a b {
   display: none;
 }
+#nav-bar nav a:hover b {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+#nav-bar nav a:hover i {
+  opacity: 0;
+  font-size: 9px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+
 
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
@@ -62,13 +115,19 @@ a {
     margin-right: 20px;
     background: #070707;
     display: block;
-}
-.logo .t {
-  height: 30px;
-  display: block;
-  margin: 5px 15px;
-  width: auto;
-}
+  }
+  .logo .t {
+    height: 30px;
+    display: block;
+    margin: 5px 15px;
+    width: auto;
+  }
+  .logo .theo {
+    display: block;
+    margin: 5px 15px;
+    width: auto;
+    height: auto;
+  }
   body {
     overflow: auto;
   }
@@ -93,10 +152,11 @@ a {
   }
   #nav-bar ul {
     position: static;
-    bottom: 20px;
+    right: 20px;
     width: 15%;
     height: 60px;
     line-height: 60px;
+    margin-top: 10px;
     float: right;
     display: flex;
     justify-content: space-around;
@@ -129,11 +189,16 @@ a {
   }
   #nav-bar .nav-toggle {
     display: block;
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    margin: 10px 20px 10px 10px;
+    display: block;
   }
   #nav-bar ul {
     display: none;
   }
-  #nav-bar nav {
+  #nav-bar nav.show {
     background-color: #131317;
     width: 100%;
     position: fixed;
@@ -146,7 +211,7 @@ a {
     height: 60px;
     top: 60px;
     margin-top: 0;
-    
+  transition: all 0.3s ease-out;
   }
   #nav-bar nav a {
     float: left;
@@ -162,6 +227,7 @@ a {
     height: 51px;
     position: relative;
     text-decoration: none;
+  transition: all 0.3s ease-out;
   }
   #nav-bar nav.show {
     left: 0;
