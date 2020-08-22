@@ -1,8 +1,14 @@
 body {
   background-color: #0e1821;
   color: #dbd7d4;
+  overflow: hidden;
+  display: block;
 }
-.sidebar {
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+#nav-bar {
   background-color: #131317;
   display: flex;
   flex-direction: column;
@@ -12,34 +18,143 @@ body {
   height: 100vh;
   width: 60px;
 }
-.sidebar .nav-toggle {
+#nav-bar nav {
+  display: block;
+  text-align: center;
+}
+#nav-bar .nav-toggle {
+  display: none;
+}
+#nav-bar ul {
+  display: block;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
+}
+#nav-bar nav a {
+  font-size: 20px;
+  color: #909096;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 51px;
+  height: 51px;
+  position: relative;
+  text-decoration: none;
+}
+#nav-bar ul li a {
+  padding: 7px 0;
+  display: block;
+  font-size: 15px;
+  line-height: 16px;
+  color: #909096;
+}
+#nav-bar nav a b {
   display: none;
 }
 
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
-  .sidebar {
+  body {
+    overflow: auto;
+  }
+  #nav-bar nav a:first-child {
+    margin-left: 0;
+  }
+  #nav-bar nav a {
+    float: left;
+    margin-left: 14%;
+    line-height: 60px;
+    height: 60px;
+  }
+  #nav-bar {
+    display: flex;
     flex-direction: row;
     height: 60px;
     width: 100%;
     position: absolute;
   }
-  .sidebar .nav-toggle {
+  #nav-bar .nav-toggle {
+    display: none;
+  }
+  #nav-bar ul {
+    position: static;
+    bottom: 20px;
+    width: 15%;
+    height: 60px;
+    line-height: 60px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+  }
+  #nav-bar nav {
+    width: 42%;
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -19%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    height: 60px;
+    top: 0;
+    margin-top: 0;
+  }
+  b {
     display: none;
   }
 }
 
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
-  .sidebar {
+  #nav-bar {
+    display: flex;
     flex-direction: row;
     height: 60px;
     width: 100%;
   }
-  .sidebar .nav-toggle {
+  #nav-bar .nav-toggle {
     display: block;
   }
-  .sidebar ul {
+  #nav-bar ul {
+    display: none;
+  }
+  #nav-bar nav {
+    background-color: #131317;
+    width: 100%;
+    position: fixed;
+    left: 100%;
+    margin-left: 0;
+    opacity: 0;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    height: 60px;
+    top: 60px;
+    margin-top: 0;
+    
+  }
+  #nav-bar nav a {
+    float: left;
+    margin-left: 0 !important;
+    line-height: 60px;
+    height: 60px;
+    width: 20%;
+    font-size: 20px;
+    color: #909096;
+    margin-bottom: 15px;
+    display: block;
+    line-height: 51px;
+    height: 51px;
+    position: relative;
+    text-decoration: none;
+  }
+  #nav-bar nav.show {
+    left: 0;
+    opacity: 0;
+  }
+  b {
     display: none;
   }
 }

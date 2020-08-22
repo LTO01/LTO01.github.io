@@ -10,44 +10,48 @@
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/style.cd660723.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="/style.cd660723.js"></script></head>
 
 <body>
-  <header class="sidebar">
-    <a class="logo" href="#">
-      <h1 class="t">T</h1>
-      <p class="theo">Theo</p>
-    </a>
-    <nav id="myLinks" class="sidenav">
-      <a href="#home" class="icon-home"><i class="fas fa-house-user"></i><b>HOME</b></a>
-      <a href="#services" class="icon-skills"><i class="fas fa-cogs"></i><b>SKILLS</b></a>
-      <a href="#services" class="icon-work"><i class="far fa-eye"></i><b>MY WORK</b></a>
-      <a href="#clients" class="icon-about"><i class="fa fa-fw fa-user"></i><b>ABOUT</b></a>
-      <a href="#contact" class="icon-contact"><i class="far fa-envelope"></i><b>CONTACT</b></a>
-    </nav>
-    <ul>
-      <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-      <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href="#" target="_blank"><i class="fab fa-github-alt"></i></a></li>
-    </ul>
-    <a class="nav-toggle" aria-label="toggle navigation" onclick="myFunction()" href="javascript:void(0);">
-      <i class="fas fa-bars"></i>
-    </a>
-    <script>function myFunction() {
-  var x = document.getElementById("myLinks");
+  <header>
+    <div id="nav-bar" class="sidebar">
+      <a class="logo" href="#">
+        <h1 class="t">T</h1>
+        <p class="theo">Theo</p>
+      </a>
+      <nav id="myLinks" class="show">
+        <a href="#home" class="icon-home"><i class="fas fa-house-user"></i><b>HOME</b></a>
+        <a href="#services" class="icon-skills"><i class="fas fa-cogs"></i><b>SKILLS</b></a>
+        <a href="#services" class="icon-work"><i class="far fa-eye"></i><b>MY WORK</b></a>
+        <a href="#clients" class="icon-about"><i class="fa fa-fw fa-user"></i><b>ABOUT</b></a>
+        <a href="#contact" class="icon-contact"><i class="far fa-envelope"></i><b>CONTACT</b></a>
+      </nav>
+      <ul>
+        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+      </ul>
+      <a class="nav-toggle" aria-label="toggle navigation" href="javascript:void(0);" onclick="toggle()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
+    <script>function toggle() {
+  var op = document.getElementById("myLinks");
+  var temp = window.getComputedStyle(op).opacity;
 
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (temp == 0) {
+    document.getElementById("myLinks").style.opacity = 1;
   } else {
-    x.style.display = "block";
+    document.getElementById("myLinks").style.opacity = 0;
   }
 }</script>
   </header>
   <main>
     <div class="main container">
 
-      
+
     </div>
   </main>
 
