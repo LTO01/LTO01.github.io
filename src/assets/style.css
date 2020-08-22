@@ -49,6 +49,7 @@ b {
 #nav-bar nav {
   display: block;
   text-align: center;
+  overflow: hidden;
 }
 #nav-bar .nav-toggle {
   display: none;
@@ -107,7 +108,6 @@ b {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-
 
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
@@ -200,21 +200,22 @@ b {
   #nav-bar ul {
     display: none;
   }
-  #nav-bar nav.show {
+  #nav-bar nav {
     background-color: #131317;
     width: 100%;
     position: fixed;
     left: 100%;
     margin-left: 0;
-    opacity: 0;
     float: left;
     overflow: hidden;
     text-align: center;
+    opacity: 0;
     height: 60px;
     top: 60px;
     margin-top: 0;
     -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
   }
   #nav-bar nav a {
     float: left;
@@ -231,13 +232,16 @@ b {
     position: relative;
     text-decoration: none;
     -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
   }
-  #nav-bar nav.show {
-    left: 0;
-    opacity: 0;
-  }
+
   b {
     display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  #nav-bar nav.show {
+    opacity: 1;
+    left: 0;
   }
 }
