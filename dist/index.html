@@ -34,11 +34,11 @@
         <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="#" target="_blank"><i class="fab fa-github-alt"></i></a></li>
       </ul>
-      <a class="nav-toggle" aria-label="toggle navigation" href="javascript:void(0);" onclick="toggle()">
+      <a id="toggle" class="nav-toggle" aria-label="toggle navigation" href="javascript:void(0);">
         <i class="fas fa-bars"></i>
       </a>
     </div>
-    <script>function toggle() {
+    <script>document.getElementById("toggle").addEventListener("click", function () {
   var x = document.getElementById("myLinks");
 
   if (x.className === "sidebar") {
@@ -46,7 +46,7 @@
   } else {
     x.className = "sidebar";
   }
-}</script>
+}, false);</script>
   </header>
   <main>
     <div class="main container">
