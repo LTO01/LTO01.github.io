@@ -143,6 +143,10 @@ b {
     margin-left: 14%;
     line-height: 60px;
     height: 60px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    text-decoration: none;
   }
   #nav-bar {
     display: flex;
@@ -194,7 +198,7 @@ b {
   #nav-bar .nav-toggle {
     display: block;
     font-size: 30px;
-    color: #fff;
+    color: var(--text-hue);
     float: right;
     margin: 10px 20px 10px 10px;
     display: block;
@@ -203,7 +207,7 @@ b {
     display: none;
   }
   #nav-bar nav {
-    background-color: #131317;
+    background-color: var(--primary-color);
     width: 100%;
     position: fixed;
     left: 100%;
@@ -226,7 +230,7 @@ b {
     height: 60px;
     width: 20%;
     font-size: 20px;
-    color: var(--supplementary-color);
+    color: var(--secondary-color);
     margin-bottom: 15px;
     display: block;
     line-height: 51px;
