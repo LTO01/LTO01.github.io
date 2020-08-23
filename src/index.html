@@ -13,7 +13,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/assets/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Mali:wght@200&family=Pangolin&family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Mali:wght@200&family=Pangolin&family=Permanent+Marker&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -36,19 +38,19 @@
         <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="#" target="_blank"><i class="fab fa-github-alt"></i></a></li>
       </ul>
-      <a class="nav-toggle" aria-label="toggle navigation" href="javascript:void(0);" onclick="toggle()">
+      <a id="toggle" class="nav-toggle" aria-label="toggle navigation" href="javascript:void(0);">
         <i class="fas fa-bars"></i>
       </a>
     </div>
     <script>
-      function toggle() {
-  var x = document.getElementById("myLinks");
-  if (x.className === "sidebar") {
-    x.className += " show";
-  } else {
-    x.className = "sidebar";
-  }
-}
+        document.getElementById("toggle").addEventListener("click", () => {
+          var x = document.getElementById("myLinks");
+          if (x.className === "sidebar") {
+            x.className += " show";
+          } else {
+            x.className = "sidebar";
+          }
+        }, false);
     </script>
   </header>
   <main>
