@@ -1,17 +1,24 @@
+:root {
+  --primary-color: #1a1a2e;
+  --secondary-color: #e94560;
+  --tertiary-color: #16213e;
+  --supplementary-color: #0f3460;
+  --highlight: gold;
+  --text-hue: whitesmoke;
+}
 body {
-  background-color: #0e1821;
-  color: #dbd7d4;
+  background-color: var(--supplementary-color);
+  color: var(--text-hue);
   overflow: hidden;
   display: block;
 }
 .logo {
-  background: #070707;
   display: block;
   padding: 8px 0;
   font-family: 'Permanent Marker', cursive;
   /* font-family: 'Shadows Into Light', cursive; */
   color: gold;
-  text-shadow: 2px 2px 4px #0da15c;
+  text-shadow: 2px 2px 4px var(--secondary-color);
 }
 .logo .t {
   display: block;
@@ -26,7 +33,7 @@ body {
   width: 24px;
   height: auto;
   font-family: 'Covered By Your Grace', cursive;
-  color: antiquewhite;
+  color: var(--text-hue)
 }
 a {
   background-color: transparent;
@@ -37,7 +44,7 @@ b {
   font-size: medium;
 }
 #nav-bar {
-  background-color: #131317;
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,6 +56,7 @@ b {
 #nav-bar nav {
   display: block;
   text-align: center;
+  overflow: hidden;
 }
 #nav-bar .nav-toggle {
   display: none;
@@ -63,7 +71,7 @@ b {
 }
 #nav-bar nav a {
   font-size: 20px;
-  color: #909096;
+  color: var(--secondary-color);
   margin-bottom: 15px;
   display: block;
   line-height: 51px;
@@ -76,11 +84,11 @@ b {
   display: block;
   font-size: 15px;
   line-height: 16px;
-  color: #909096;
+  color: var(--secondary-color);
 }
 #nav-bar a:hover,
 #nav-bar a:active {
-  color: gold;
+  color: var(--highlight);
 }
 #nav-bar nav a b {
   display: none;
@@ -89,12 +97,10 @@ b {
   display: block;
   font-size: 11px;
   letter-spacing: 2px;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   text-align: center;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
 #nav-bar nav a:hover i {
   opacity: 0;
@@ -104,10 +110,7 @@ b {
   bottom: 0;
   width: 100%;
   text-align: center;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
-
 
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
@@ -115,7 +118,6 @@ b {
     float: left;
     padding: 2px 0;
     margin-right: 20px;
-    background: #070707;
     display: block;
   }
   .logo .t {
@@ -141,6 +143,10 @@ b {
     margin-left: 14%;
     line-height: 60px;
     height: 60px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    text-decoration: none;
   }
   #nav-bar {
     display: flex;
@@ -192,7 +198,7 @@ b {
   #nav-bar .nav-toggle {
     display: block;
     font-size: 30px;
-    color: #fff;
+    color: var(--text-hue);
     float: right;
     margin: 10px 20px 10px 10px;
     display: block;
@@ -200,21 +206,22 @@ b {
   #nav-bar ul {
     display: none;
   }
-  #nav-bar nav.show {
-    background-color: #131317;
+  #nav-bar nav {
+    background-color: var(--primary-color);
     width: 100%;
     position: fixed;
     left: 100%;
     margin-left: 0;
-    opacity: 0;
     float: left;
     overflow: hidden;
     text-align: center;
+    opacity: 0;
     height: 60px;
     top: 60px;
     margin-top: 0;
     -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
   }
   #nav-bar nav a {
     float: left;
@@ -223,7 +230,7 @@ b {
     height: 60px;
     width: 20%;
     font-size: 20px;
-    color: #909096;
+    color: var(--secondary-color);
     margin-bottom: 15px;
     display: block;
     line-height: 51px;
@@ -231,13 +238,16 @@ b {
     position: relative;
     text-decoration: none;
     -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
   }
-  #nav-bar nav.show {
-    left: 0;
-    opacity: 0;
-  }
+
   b {
     display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  #nav-bar .show {
+    opacity: 1;
+    left: 0;
   }
 }
