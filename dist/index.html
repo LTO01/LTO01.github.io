@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width-device-width, initial-scale=1.0">
-  <title>T.O | Software Developer</title>
+  <title>Theodore | Software Developer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/style.cd660723.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.2/web-animations.min.js" integrity="sha512-oAY57i8MXmaOP7pAylNLnULAM4QLV3uGnvnXVY4zF229/zFzTvG2/5YIgH8iN8oZR2hnbkiDPd4JCJGaH4oG6g==" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Mali:wght@200&family=Pangolin&family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 <script src="/style.cd660723.js"></script></head>
 
@@ -48,13 +49,47 @@
   }
 }, false);</script>
   </header>
-  <main>
-    <div class="main container">
+  <main> 
+    <div id="universe" class="main container">
+      <script>var starCount = 1000;
+var maxTime = 31;
+var universe = document.getElementById('universe');
+var w = window;
+var d = document;
+var e = d.documentElement;
+var g = d.getElementsByTagName('main')[0];
+var width = w.innerWidth || e.clientWidth || g.clientWidth;
+var height = w.innerHeight || e.clientHeight || g.clientHeight;
 
+for (var i = 0; i < starCount; ++i) {
+  var ypos = Math.round(Math.random() * height);
+  var star = document.createElement('div');
+  var speed = 5000 * (Math.random() * maxTime + 1);
+  star.setAttribute('class', 'star' + (3 - Math.floor(speed / 1000 / 8)));
+  star.style.backgroundColor = 'white'; //rgb(' + Math.round(Math.random() * 255) + ', ' + Math.round(Math.random() * 255) + ', ' + Math.round(Math.random() * 255) + ')';
 
+  universe.appendChild(star);
+  star.animate([{
+    transform: 'translate3d(' + width + 'px, ' + ypos + 'px, 0)'
+  }, {
+    transform: 'translate3d(-' + Math.random() * 256 + 'px, ' + ypos + 'px, 0)'
+  }], {
+    delay: Math.random() * -speed,
+    duration: speed,
+    iterations: 1000
+  });
+}</script>
+      <section id="home"></section>
+      <section class="skills"></section>
+      <section class="work"></section>
+      <section class="about"></section>
+      <section class="contact"></section>
     </div>
-  </main>
 
+  </main>
+  <script>
+
+  </script>
   <footer></footer>
 </body>
 

@@ -7,8 +7,8 @@
   --text-hue: whitesmoke;
 }
 body {
-  background-color: #0f3460;
-  background-color: var(--supplementary-color);
+  background-color: #16213e;
+  background-color: var(--tertiary-color);
   color: whitesmoke;
   color: var(--text-hue);
   overflow: hidden;
@@ -259,6 +259,46 @@ b {
     opacity: 1;
     left: 0;
   }
+}
+/* *********************************************************************************************************************** */
+/* ***************************    N A V I G A T I O N     E N D S         H E R E     *********************************** */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/******************************   H O M E    P A G E   ******************************************************************/
+.star0 {
+  height: 1px;
+  width: 1px;
+  opacity: 1;
+  position: absolute;
+}
+
+.star1 {
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+
+.star2 {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+
+.star3 {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=/style.cd660723.css.map */
