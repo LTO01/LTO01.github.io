@@ -1,13 +1,13 @@
 :root {
   --primary-color: #1a1a2e;
   --secondary-color: #e94560;
-  --tertiary-color: #16213e;
+  --tertiary-color:rgb(7, 4, 51);
   --supplementary-color: #0f3460;
   --highlight: gold;
   --text-hue: whitesmoke;
 }
 body {
-  background-color: #16213e;
+  background-color: rgb(7, 4, 51);
   background-color: var(--tertiary-color);
   color: whitesmoke;
   color: var(--text-hue);
@@ -37,7 +37,7 @@ body {
   height: auto;
   font-family: 'Covered By Your Grace', cursive;
   color: whitesmoke;
-  color: var(--text-hue)
+  color: var(--text-hue);
 }
 a {
   background-color: transparent;
@@ -62,6 +62,7 @@ b {
   display: block;
   text-align: center;
   overflow: hidden;
+  z-index: 3;
 }
 #nav-bar .nav-toggle {
   display: none;
@@ -263,7 +264,6 @@ b {
 /* *********************************************************************************************************************** */
 /* ***************************    N A V I G A T I O N     E N D S         H E R E     *********************************** */
 
-
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /******************************   H O M E    P A G E   ******************************************************************/
 .star0 {
@@ -299,6 +299,89 @@ b {
 .main {
   width: 100vw;
   height: 100vh;
+  color: whitesmoke;
+  color: var(--text-hue);
 }
+#home {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+  opacity: 1;
+  background-color: rgb(7, 4, 51);
+  background-color: var(--tertiary-color);
+}
+.container {
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  background-color: rgb(7, 4, 51);
+  display: block;
+  opacity: 1;
+  top: 5%;
+  margin: 0 auto;
+  z-index: -1;
+  transform-style: preserve-3d;
+}
+.tags {
+  color: #8d8d8d;
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  opacity: 1;
+  z-index: 15;
+  font-size: 18px;
+  font-family: 'Indie Flower', cursive;
+}
+.first-tags {
+  top: 0;
+}
+.top-tags {
+  /* bottom: auto; */
+  top: 35%;
+  left: 10%;
+  z-index: 20;
+}
+.text-zone {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  max-height: 90%;
+}
+.text-zone h1 {
+  color: #fff;
+  font-size: 56px;
+  line-height: 53px;
+  margin: 0;
+  font-family: font-file-82132;
+  opacity: 1;
+  font-weight: 400;
+}
+.text-zone h2 {
+  color: #8d8d8d;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 11px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  -webkit-animation: myanim2 1s 1.8s backwards;
+  animation: myanim2 1s 1.8s backwards;
+}
+.text-zone h1::after {
+  content: '</h1>';
+  color: #8d8d8d;
+  font-size: 18px;
+  font-family: 'Indie Flower', cursive;
+}
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 600px) {
+}
+
 
 /*# sourceMappingURL=/style.cd660723.css.map */
