@@ -1,0 +1,20 @@
+{
+  "name": "mrobonye.github.io",
+  "version": "1.0.0",
+  "description": "website portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrObonye/mrobonye.github.io.git"
+  },
+  "author": "L. Theodore Obonye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrObonye/mrobonye.github.io/issues"
+  },
+  "homepage": "https://github.com/MrObonye/mrobonye.github.io#readme"
+}
