@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["document","body","innerHTML"],"mappings":";AAAAA,SAASC,KAAKC,UAAY","file":"src.bb59dd9e.js","sourceRoot":"../src","sourcesContent":["document.body.innerHTML = \"Hello World!\""]}
